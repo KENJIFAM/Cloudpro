@@ -45,7 +45,10 @@ manager.gui = (function () {
         // lomakkeesta nimen ja osoitteen, luot niistä uuden henkilön, 
         // ja lopulta kutsut manager.data.add -funktiota, jolle annat parametrina
         // henkilön
-
+        const name = document.getElementById('name').value;
+        const address = document.getElementById('address').value;
+        const person = new manager.domain.Person(name, address);
+        manager.data.addPerson(person);
     }
 
     return {
@@ -68,7 +71,14 @@ manager.data = (function (updateHook) {
     // palauta tässä funktiot addPerson siten, että sen julkinen nimi on add, ja
     // list siten, että sen julkinen nimi on list
 
+    const addPerson = person => {
+        persons.push(person);
+        updateHook();
+    };
 
+    const list = () => persons;
+
+    return { addPerson, list };
 })(manager.gui.update);
 
 function init() {

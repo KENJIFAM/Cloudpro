@@ -1,3 +1,5 @@
+'use strict';
+
 let targetNumber = Math.floor(Math.random() * 10) + 1;
 let stop = false;
 let count = 0;

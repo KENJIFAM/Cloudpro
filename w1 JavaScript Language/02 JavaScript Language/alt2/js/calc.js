@@ -13,3 +13,11 @@ function plus() {
 function mult() {
     setResult(getNumber("firstValue") * getNumber("secondValue"));
 }
+
+function sub() {
+    setResult(getNumber("firstValue") - getNumber("secondValue"));
+}
+
+function div() {
+    setResult(getNumber("firstValue") / getNumber("secondValue"));
+}

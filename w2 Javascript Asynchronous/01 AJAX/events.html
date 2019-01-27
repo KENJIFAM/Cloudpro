@@ -16,7 +16,27 @@ window.onload = function() {
 	} else if (div.attachEvent) {
 		div.attachEvent("click", handleClick);
 	}
+
+	var newdiv = document.getElementById("newdiv");
+	if (newdiv.addEventListener) {
+		newdiv.addEventListener("click", handleClick, false);
+		newdiv.addEventListener("mousemove", handleMouseMove, false);
+	} else if (newdiv.attachEvent) {
+		newdiv.attachEvent("click", handleClick);
+		newdiv.attachEvent("mousemove", handleMouseMove);
+	}
 };
+
+function handleMouseMove(e) {
+	var evt = e || window.event;
+	var target;
+	if (evt.target) {
+		target = evt.target;
+	} else {
+		target = evt.srcElement;
+	}
+	alert("You moved over " + target.id);
+}
 
 function handleClick(e) {
 	var evt = e || window.event;
@@ -33,5 +53,6 @@ function handleClick(e) {
 </head>
 <body>
 <span id="clickme">Click me!</span>
+<div id="newdiv">Some text!</div>
 </body>
 </html>

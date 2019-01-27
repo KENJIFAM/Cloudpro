@@ -18,8 +18,30 @@ var fido2 = {
 var fidoString = JSON.stringify(fido2);
 console.log("We made a string from a dog! " + fidoString);
 
+var animal = {
+    breed: { 
+        latin: "Boidae",
+        swedish: "Jätteorm"
+    },
+    sound: "none"
+};
+var mystring = JSON.stringify(animal);
+
+var myObject = JSON.parse(mystring);
+var animalBreed = myObject.breed;
+
+var mystring2 = JSON.stringify(animalBreed);
+
+function init (){
+  document.getElementById('animal').innerHTML = mystring;
+  document.getElementById('animal-breed').innerHTML = mystring2;
+}
+
+window.onload = init;
   </script>
 </head>
 <body>
+  <div id="animal"></div>
+  <div id="animal-breed"></div>
 </body>
 </html>

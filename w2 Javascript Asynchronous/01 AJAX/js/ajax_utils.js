@@ -56,7 +56,7 @@ function getJsonSync(url) {
 // DOM STUFF
 // *******
 var storyDiv = document.querySelector('.story');
-
+var resultDiv = document.querySelector('.result');
 function addHtmlToPage(content) {
   var div = document.createElement('div');
   div.innerHTML = content;
@@ -68,3 +68,28 @@ function addTextToPage(content) {
   p.textContent = content;
   storyDiv.appendChild(p);
 }
+
+function get_selection() {
+  var txt = '';
+  if (window.getSelection) {
+      txt = window.getSelection();
+  } else if (document.getSelection) {
+      txt = document.getSelection();
+  } else if (document.selection) {
+      txt = document.selection.createRange().text;
+  }
+  return txt;
+}
+var dictionaryDiv = document.querySelector('.dictionary');
+
+function addWordToDictionary(content) {
+  var p = document.createElement('p');
+  p.textContent = content;
+  dictionaryDiv.appendChild(p);
+}
+$(document).dblclick(function(e) {
+  var t = get_selection();
+  var result = getJsonSync(`https://api.wordnik.com/v4/word.json/${t}/definitions?limit=200&includeRelated=false&useCanonical=false&includeTags=false&api_key=YOURAPIKEY`);
+  addWordToDictionary(`${t} definition: ${result[0].text}`);
+  return t;
+});

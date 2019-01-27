@@ -9,6 +9,7 @@
     <label><input type="checkbox"> Fake network delay</label>
   </div>
   <div class="story"></div>
+  <div class="dictionary">Word dictionary list:</div>
   <svg class="spinner" viewBox="0 0 100 100" width="20" height="20">
     <circle cx="50" cy="50" r="42" transform="rotate(-90,50,50)" />
   </svg>
@@ -23,7 +24,12 @@
 
       story.chapterUrls.forEach(function(chapterUrl) {
         var chapter = getJsonSync('data/'+chapterUrl); // remove the 'data/' part if using gist
+        var result;
+        if(chapter.html.includes('dictum')){
+          result = getJsonSync(`https://api.wordnik.com/v4/word.json/dictum/definitions?limit=200&includeRelated=false&useCanonical=false&includeTags=false&api_key=YOURAPIKEY`);
+        }        
         addHtmlToPage(chapter.html);
+        addTextToPage("Dictum definition: " + result[0].text);
       });
 
       addTextToPage("All done");

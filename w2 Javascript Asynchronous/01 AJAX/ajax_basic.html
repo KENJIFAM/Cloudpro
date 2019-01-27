@@ -9,7 +9,10 @@
   <span id="ajaxButton" style="cursor: pointer; text-decoration: underline">
     Make a request
   </span>
-
+  <div>
+    <input type="text" name="url" id="url" placeholder="type url"/>
+    <button id="sendRequest">Send</button>
+  </div>
 
   <script type="text/javascript">
   (function() {
@@ -18,7 +21,8 @@
     // Use Github Gist when no web server is available
     // var testUrl = 'https://gist.githubusercontent.com/c0lin/571d38b984d41b44aacf/raw/story.json';
     document.getElementById("ajaxButton").onclick = function() { makeRequest(testUrl); };
-
+    document.getElementById("sendRequest").onclick = () => makeRequest(document.getElementById('url').value);
+    
     function makeRequest(url) {
       if (window.XMLHttpRequest) { // Mozilla, Safari, ...
         httpRequest = new XMLHttpRequest();
@@ -53,6 +57,8 @@
       if (httpRequest.readyState === 4) {
         if (httpRequest.status === 200) {
           alert(httpRequest.responseText);
+        } else if (httpRequest.status === 404) {
+          alert('Site is DOWN');
         } else {
           alert('There was a problem with the request.');
         }

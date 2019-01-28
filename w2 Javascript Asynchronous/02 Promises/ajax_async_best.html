@@ -10,6 +10,12 @@
     <label><input type="checkbox"> Fake network delay</label>
   </div>
   <div class="story"></div>
+  <button id="button1">Chap 1</button>
+  <button id="button2">Chap 2</button>
+  <button id="button3">Chap 3</button>
+  <button id="button4">Chap 4</button>
+  <button id="button5">Chap 5</button>
+  <div id="result"></div>
   <svg class="spinner" viewBox="0 0 100 100" width="20" height="20">
     <circle cx="50" cy="50" r="42" transform="rotate(-90,50,50)" />
   </svg>
@@ -17,32 +23,25 @@
   <script src="js/promise-2.0.4.min.js"></script>
   <script src="js/utils.js"></script>
   <script>
-    // Use Github Gist when no web server is available
-    // getJson('https://gist.githubusercontent.com/c0lin/571d38b984d41b44aacf/raw/story.json').then(function(story) {
-    getJson('data/story.json').then(function(story) {
-      addHtmlToPage(story.heading);
+    var result = document.getElementById("result");
+    var buttons = [];
+    for (var i = 1; i <= 5; i++)
+      buttons.push(document.getElementById(`button${i}`));
 
-      // Update URLs for next fetch
-      story.chapterUrls = story.chapterUrls.map(function(url) { return "data/" + url; });
-      // Map our array of chapter urls
-      // to an array of chapter json promises
-      return story.chapterUrls.map(getJson).reduce(function(chain, chapterPromise) {
-        // Use reduce to chain the promises together,
-        // but adding content to the page for each chapter
-        return chain.then(function() {
-          return chapterPromise;
-        }).then(function(chapter) {
-          addHtmlToPage(chapter.html);
-        });
-      }, Promise.resolve());
-    }).then(function() {
-      addTextToPage("All done");
-    }).catch(function(err) {
-      // catch any error that happened along the way
-      addTextToPage("Argh, broken: " + err.message);
-    }).then(function() {
-      document.querySelector('.spinner').style.display = 'none';
-    });
+    var onFetch = button => {
+      return new Promise((resolve, reject) => {
+        button.addEventListener("click", clicked);
+        var clicked = () => {
+          resolve(button);
+          button.removeEventListener("click", clicked);
+        };
+      });
+    };
+
+    buttons.map(onFetch).reduce((chain, clickPromise) => {
+      return chain.then(() => clickPromise)
+        .then(btn => output.innerHTML += btn.innerHTML);
+    }, Promise.resolve());
   </script>
 </body>
 </html>

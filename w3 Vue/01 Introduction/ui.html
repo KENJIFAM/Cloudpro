@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>A Vue.js Calculator</title>
+  <style>
+    p, input { font-family: monospace; }
+    p { white-space: pre; }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <p>x <input v-model="x"></p>
+    <p>y <input v-model="y"></p>
+    <p>---------------------</p>
+    <p>= <span v-text="result"></span></p>
+    <button v-on:click="multiplyBy">Multiply</button>
+    <button v-on:click="divideBy">Divide</button>
+  </div>
+    
+
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <script type="text/javascript" src="./logic.js">
+  </script>
+</body>
+</html>

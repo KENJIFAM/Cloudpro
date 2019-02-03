@@ -1,8 +1,28 @@
 const isNotNumericValue = value => isNaN(value) || !isFinite(value);
 
+var STORAGE_KEY = 'calcResult-vuejs'
+var calcStorage = {
+    fetch: function () {
+        var calcResults = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]')
+        calcResults.forEach(function (calcResult, index) {
+            calcResult.id = index
+        })
+        calcStorage.uid = calcResults.length
+        return calcResults
+    },
+    save: function (calcResult) {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(calcResult))
+    }
+};
+
 const calc = new Vue({
   el: '#app',
-  data: { x: 0, y: 0, result: 0},
+  data: { 
+    x: 0, 
+    y: 0, 
+    result: 0,
+    calcResults: calcStorage.fetch()
+  },
   methods: {
     multiplyBy: function() {
       let x = parseFloat(this.x);
@@ -14,6 +34,15 @@ const calc = new Vue({
         return this.result;
       
       this.result = x * y;
+
+      this.calcResults.push({
+        id: calcStorage.uid++,
+        number1: x,
+        number2: y,
+        method: "Multiply",
+        result: this.result
+      });
+
       return this.result;
     },
     divideBy: function() {
@@ -26,7 +55,24 @@ const calc = new Vue({
         return this.result;
 
       this.result = x / y;
+
+      this.calcResults.push({
+        id: calcStorage.uid++,
+        number1: x,
+        number2: y,
+        method: "Divide",
+        result: this.result
+      });
+
       return this.result;
+    }
+  },
+  watch: {
+    calcResults: {
+      handler: function (calcResults) {
+        calcStorage.save(calcResults)
+      },
+      deep: true
     }
   }
 });

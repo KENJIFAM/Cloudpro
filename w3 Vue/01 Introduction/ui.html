@@ -15,8 +15,16 @@
     <p>= <span v-text="result"></span></p>
     <button v-on:click="multiplyBy">Multiply</button>
     <button v-on:click="divideBy">Divide</button>
+    <h3>Result from storage</h3>
+    <ul>
+      <li v-for="calcResult in calcResults">
+        <div>Number 1: {{ calcResult.number1 }}</div>
+        <div>Number 2: {{ calcResult.number2 }}</div>
+        <div>Method: {{ calcResult.method }}</div>
+        <div>Result: {{ calcResult.result }}</div>
+      </li>
+    </ul>
   </div>
-    
 
   <script src="https://unpkg.com/vue/dist/vue.js"></script>
   <script type="text/javascript" src="./logic.js">

@@ -1,18 +1,16 @@
 const isNotNumericValue = value => isNaN(value) || !isFinite(value);
 
-var STORAGE_KEY = 'calcResult-vuejs'
-var calcStorage = {
-    fetch: function () {
-        var calcResults = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]')
-        calcResults.forEach(function (calcResult, index) {
-            calcResult.id = index
-        })
-        calcStorage.uid = calcResults.length
-        return calcResults
-    },
-    save: function (calcResult) {
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(calcResult))
-    }
+const STORAGE_KEY = 'calcResult-vuejs';
+const calcStorage = {
+  fetch: function () {
+    const calcResults = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+    calcResults.forEach((calcResult, index) => calcResult.id = index);
+    calcStorage.uid = calcResults.length;
+    return calcResults;
+  },
+  save: function (calcResult) {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(calcResult));
+  }
 };
 
 const calc = new Vue({
@@ -70,7 +68,7 @@ const calc = new Vue({
   watch: {
     calcResults: {
       handler: function (calcResults) {
-        calcStorage.save(calcResults)
+        calcStorage.save(calcResults);
       },
       deep: true
     }

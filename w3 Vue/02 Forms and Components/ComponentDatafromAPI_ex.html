@@ -9,13 +9,22 @@
  <blog-post
   v-for="post in posts"
   v-bind:key="post.id"
-  v-bind:post="post.title"
+  v-bind:post="post"
 ></blog-post>
+</div>
+
+<p>--------------</p>
+<div id="user-list">
+  <user-info
+    v-for="user in users"
+    v-bind:key="user.id"
+    v-bind:user="user"
+  ></user-info>
 </div>
 <script type="text/javascript">
 Vue.component('blog-post', {
   props: ['post'],
-  template: '<h3>{{ post.title }}</h3>'
+  template: '<div class="blog-post"><h3>{{ post.title }}</h3></div>'
 })
 new Vue({
   el: '#blog-post-demo',
@@ -33,6 +42,35 @@ new Vue({
       })
       .then(function (data) {
         vm.posts = data
+      })
+  }
+})
+Vue.component('user-info', {
+  props: ['user'],
+  template: `
+    <div>
+    <h3>Name: {{ user.name }}</h3>
+    <h3>Address: {{user.address.street}}, {{user.address.suite}}, {{user.address.zipcode}}, {{user.address.city}} </h3>
+    </div>
+    `
+})
+
+new Vue({
+  el: '#user-list',
+  data: {
+    users: [  ]
+  },
+  created: function () {
+    // Alias the component instance as `vm`, so that we  
+    // can access it inside the promise function
+    var vm = this
+    // Fetch our array of posts from an API
+    fetch('https://jsonplaceholder.typicode.com/users')
+      .then(function (response) {
+        return response.json()
+      })
+      .then(function (data) {
+        vm.users = data
       })
   }
 })

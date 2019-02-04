@@ -22,8 +22,24 @@ body {
 .list-item:not(:last-child) {
     padding-bottom: 15px;
   }
-
-
+.my-new-list {
+  flex: 1 1 50%;
+  font-family: Arial;
+  color: white;
+  margin: 20px;
+}
+.new-title {
+  background: rgb(150, 0, 155);
+  font-weight: bold;
+  font-size: 22px;
+}
+.new-list {
+  background: rgb(253, 82, 210);
+  font-size: 16px;
+}
+.list-item:not(:last-child) {
+  padding-bottom: 15px;
+}
 .swatch {
   display: inline-block;
   width: 15px;

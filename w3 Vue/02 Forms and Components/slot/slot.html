@@ -12,6 +12,12 @@
       <div>{{ person.name }} <small>({{ person.tweet }} tweets)</small></div>
     </template>
   </my-list>
+  <!--Parties-->
+  <my-new-list :items="parties" title="Parties">
+    <template slot-scope="party">
+      <div>{{ party.name }} <small>({{ party.senators }} senators)</small></div>
+    </template>
+  </my-new-list>
 </div>
 
 <script type="text/x-template" id="my-list">
@@ -24,6 +30,16 @@
   </div>
 </div>
 </script>
+<script type="text/x-template" id="my-new-list">
+  <div class="my-new-list">
+    <div class="new-title">{{ title }}</div>
+    <div class="new-list">
+      <div class="list-item" v-for="item in items">
+        <slot v-bind="item"></slot>
+      </div>
+    </div>
+  </div>
+</script>  
 <script src="https://unpkg.com/vue/dist/vue.js"></script>
 <script type="text/javascript" src="js/slot.js"></script>
 </body>

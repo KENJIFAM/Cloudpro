@@ -33,13 +33,22 @@
           <p class="price">
             {{product.price | formatPrice}}
           </p>
-			<button class="default"  
-				v-on:click="addToCart" 
-				v-show="canAddToCart"
-				>Add to cart
-			</button>
+          <button 
+            class="default"  
+            v-if = "canAddToCart"
+            v-on:click="addToCart" 
+            >Add to cart
+          </button>
+          <button 
+            class="default"  
+            v-else
+            disabled
+            v-on:click="addToCart" 
+            >Add to cart
+          </button>
         </div>
       </div>
+      <div>Remaining inventory: {{product.availableInventory - cartItemCount}} </div>
       <div v-else>
 
       </div>

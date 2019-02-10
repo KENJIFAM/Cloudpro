@@ -19,9 +19,11 @@
 		 
          const Route1 = { template: '<div>This is router 1</div>' }
          const Route2 = { template: '<div>This is router 2</div>' }
+         const NotFound = { template: '<div>The page is not found</div>' }
          const routes = [
             {path: '/route1', component: Route1} ,
-            {path: '/route2', component: Route2}
+            {path: '/route2', component: Route2},
+            {path: "/*", component: NotFound}
          ]
 		 
     const router = new VueRouter({

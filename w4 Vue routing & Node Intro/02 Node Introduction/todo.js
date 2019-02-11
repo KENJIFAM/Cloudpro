@@ -24,13 +24,18 @@ do {
     /* This time the indexOf() function is used to locate the first space character. */
 		let space = input.indexOf(' ')
     /* the substring() function returns the string after the specified position. This will include the space character and so the result is trimmed of any whitespace. */
-		let item = input.substring(space+1).trim()
+		let item = input.substring(space+1).trim().toLowerCase()
+    if(items.indexOf(item) < 0){
+      items.push(item)
+      console.log('adding "'+item+'"')
+    } else {
+      console.log(`Already have ${item}`)
+    }
     /* console.log() prints to the terminal. */
-		console.log('adding "'+item+'"')
+
     /* All arrays have a built-in push() function which appends an item to their end. */
-		items.push(item)
+
     // items.unshift(item) : add the item to the beginning of the array
-    
 	}
 	if (input.indexOf('list') === 0) {
     /* Here we use a for...next loop to interate through all the array indexes. The let keyword defines a variable with _block_ scope (more on this later). */
@@ -38,6 +43,21 @@ do {
       /* Here we reference the array index. */
 			console.log(i+'. '+items[i])
 		}
+  }
+  if (input.indexOf('remove ') === 0) {
+		let space = input.indexOf(' ')
+    let item = input.substring(space+1).trim()
+    if(items.indexOf(item) >= 0){
+      items.splice(items.indexOf(item),1)
+      console.log('remove "'+item+'"')
+    } else {
+      console.log(`Do not have ${item}`)
+    }
+    /* console.log() prints to the terminal. */
+		
+    /* All arrays have a built-in push() function which appends an item to their end. */
+    
+    // items.unshift(item) : add the item to the beginning of the array
 	}
   /* the code will loop unless the input was _exit_. Notice the use of !== in the comparison instead of the more typical !=. This is a strict negating comparison. This means 'not equal and not equal type' */
 } while (input !== 'exit')

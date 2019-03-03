@@ -4,6 +4,23 @@ var request = require('request')
 
 var bookList = []
 
+const validateBookId = (bookId, callback) => {
+  const url = `https://www.googleapis.com/books/v1/volumes?q=${bookId}`
+  request.get(url, (err, res, body) => {
+    if (err) {
+      callback(new Error('error making google books request'))
+      return
+    }
+    const json = JSON.parse(body)
+    const items = json.items
+    if (items === undefined) {
+      callback(new Error('bookId is invalid, book does not exist'))
+      return
+    }
+    callback(null, 'bookId is valid')
+  })
+}
+
 /* The standard pattern for asynchronous callbacks is for the first parameter to be the error, this should be null if no error is thrown with the second parameter being the data. */
 exports.search = (query, callback) => {
   if (typeof query !== 'string' || query.length === 0) {
@@ -31,17 +48,26 @@ exports.search = (query, callback) => {
 }
 
 /* a synchronous function will either return data or throw an error */
-exports.add = bookId => {
+exports.add = (bookId, callback) => {
   if (bookId.length != 12) {
     /* this throws a user-defined exception. */
-    throw('bookId should be 12 character long')
+    callback(new Error('bookId should be 12 character long'))
+    return
   }
   if (bookList.indexOf(bookId) != -1) {
-    throw('book has already been added to the list')
+    callback(new Error('book has already been added to the list'))
+    return
   }
-  bookList.push(bookId)
-  //console.log(bookList.length)
-  return 'book '+bookId+' added'
+  validateBookId(bookId, (err, data) => {
+    if (err) {
+      callback(new Error(err.message))
+      return
+    }
+    console.log(data)    
+    bookList.push(bookId)
+    //console.log(bookList.length)
+    callback(null, 'book '+bookId+' added')
+  })
 }
 
 exports.delete = bookId => {
@@ -57,17 +83,20 @@ exports.bookCount = () => {
   return bookList.length
 }
 
-exports.search = (query, callback) => {
+exports.describe = (query, callback) => {
   if (typeof query !== 'string' || query.length === 0) {
     callback(new Error('missing query parameter'))
+    return
   }
   if (query.length != 12) {
-    callback(new Error('bookId should be 12 character long'));
+    callback(new Error('bookId should be 12 character long'))
+    return
   }
   const url = `https://www.googleapis.com/books/v1/volumes?q=${query}`
   request.get(url, (err, res, body) => {
     if (err) {
       callback(new Error('error making google books request'))
+      return
     }
     const json = JSON.parse(body)
     const items = json.items

@@ -35,15 +35,23 @@ input.on('data', chunk => {
   if (text.indexOf('add ') === 0) {
     console.log('adding "'+item+'"')
     /* we wrap our code in a 'try' block */
-    try {
-      const result = books.add(item)
-      console.log(result)
-    } catch (err) {
-      /* if an exception is thrown the program flow jumps to the 'catch' block, the exception is stored in the 'err' parameter. */
-      console.log(err)
-    } finally {
+    // try {
+    //   const result = books.add(item)
+    //   console.log(result)
+    // } catch (err) {
+    //   /* if an exception is thrown the program flow jumps to the 'catch' block, the exception is stored in the 'err' parameter. */
+    //   console.log(err)
+    // } finally {
+    //   console.log('the list contains '+books.bookCount()+' books')
+    // }
+    books.add(item, (err, data) => {
+      if (err) {
+        console.log(err.message)
+      } else {
+        console.log(data)
+      }
       console.log('the list contains '+books.bookCount()+' books')
-    }
+    })
   }
   if (text.indexOf('describe ') === 0) {
     console.log('describing for "' + item + '"')

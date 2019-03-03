@@ -45,4 +45,14 @@ input.on('data', chunk => {
       console.log('the list contains '+books.bookCount()+' books')
     }
   }
+  if (text.indexOf('describe ') === 0) {
+    console.log('describing for "' + item + '"')
+    books.describe(item, (err, data) => {
+      if (err) {
+        console.log(err.message)
+        return
+      }
+      console.log(JSON.stringify(data, null, 2))
+    })
+  }
 })

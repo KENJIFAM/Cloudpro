@@ -56,3 +56,35 @@ exports.delete = bookId => {
 exports.bookCount = () => {
   return bookList.length
 }
+
+exports.search = (query, callback) => {
+  if (typeof query !== 'string' || query.length === 0) {
+    callback(new Error('missing query parameter'))
+  }
+  if (query.length != 12) {
+    callback(new Error('bookId should be 12 character long'));
+  }
+  const url = `https://www.googleapis.com/books/v1/volumes?q=${query}`
+  request.get(url, (err, res, body) => {
+    if (err) {
+      callback(new Error('error making google books request'))
+    }
+    const json = JSON.parse(body)
+    const items = json.items
+    if (items === undefined) {
+      //console.log('found undefined property')
+      callback(new Error('no books found matching search'))
+      return
+    }
+    const book = {
+      id: items[0].id, 
+      title: items[0].volumeInfo.title, 
+      authors: items[0].volumeInfo.authors, 
+      publisher: items[0].volumeInfo.publisher,
+      publishedDate: items[0].volumeInfo.publishedDate,
+      description: items[0].volumeInfo.description
+    }
+    /* the first callback parameter is the error, which in this case will be null, the second parameter is the data returned. */
+    callback(null, book)
+  })
+}

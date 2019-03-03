@@ -19,6 +19,19 @@ input.on('data', chunk => {
       console.log(JSON.stringify(data, null, 2))
     })
   }
+  if (text.indexOf('delete ') === 0) {
+    console.log('deleting "'+item+'"')
+    /* we wrap our code in a 'try' block */
+    try {
+      const result = books.delete(item)
+      console.log(result)
+    } catch (err) {
+      /* if an exception is thrown the program flow jumps to the 'catch' block, the exception is stored in the 'err' parameter. */
+      console.log(err)
+    } finally {
+      console.log('the list contains '+books.bookCount()+' books')
+    }
+  }
   if (text.indexOf('add ') === 0) {
     console.log('adding "'+item+'"')
     /* we wrap our code in a 'try' block */

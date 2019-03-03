@@ -44,6 +44,15 @@ exports.add = bookId => {
   return 'book '+bookId+' added'
 }
 
+exports.delete = bookId => {
+  if (bookList.indexOf(bookId) == -1) {
+    throw('book is not in the list')
+  }
+  bookList = bookList.filter(book => book !== bookId)
+  //console.log(bookList.length)
+  return 'book '+bookId+' deleted'
+}
+
 exports.bookCount = () => {
   return bookList.length
 }

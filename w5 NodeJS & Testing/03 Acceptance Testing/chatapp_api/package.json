@@ -1,0 +1,25 @@
+{
+  "name": "chatapp_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "btoa": "^1.2.1",
+    "cors": "^2.8.5",
+    "csprng": "^0.1.2",
+    "express": "^4.16.4",
+    "node-persist": "^3.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}

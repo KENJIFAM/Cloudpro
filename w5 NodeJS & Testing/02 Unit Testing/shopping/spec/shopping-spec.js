@@ -74,4 +74,64 @@ describe('Shopping List', function () {
 		}
 	})
 
+	it('should decrease amount of item in list', () => {
+		try {
+			list.decrement('bread',1)
+			expect(list.getItem('bread').qty).toBe(1)
+		} catch(err) {
+			expect(err.message).toBe('item not in list')
+		}
+	})
+
+	it('should throw an error if item is not in list', () => {
+		try {
+			list.decrement('chicken',1)
+			expect(true).toBe(false)
+		} catch(err) {
+			expect(err.message).toBe('item not in list')
+		}
+	})
+
+	it('should throw an error if decrement dont have 2 args', () => {
+		try {
+			list.decrement('bread')
+			expect(true).toBe(false)
+		} catch(err) {
+			expect(err.message).toBe('function requires two parameters')
+		}
+	})
+
+	it('should throw an error if 2nd arg is not a number', () => {
+		try {
+			list.decrement('bread','abc')
+			expect(true).toBe(false)
+		} catch(err) {
+			expect(err.message).toBe('second parameter should be a number')
+		}
+	})
+
+	it('should remove item if quantity is smaller than number argument', () => {
+		list.decrement('bread',3)
+		const items = list.getAll()
+		expect(items[0].title).toBe('butter')
+	})
+
+	it('should check if item is an empty string', () => {
+		try {
+			list.add("  ")
+			expect(true).toBe(false)
+		} catch(err) {
+			expect(err.message).toBe('item cannot be an empty string')
+		}
+	})
+
+	it('should check if item is a valid string', () => {
+		try {
+			list.add(12345)
+			expect(true).toBe(false)
+		} catch(err) {
+			expect(err.message).toBe('item must be a valid string');
+		}
+	})
+
 })

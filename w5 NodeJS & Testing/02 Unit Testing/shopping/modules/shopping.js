@@ -10,6 +10,14 @@ var data = new Map()
 
 /** add a new item to the todo list. Notice that we are using the new 'Arrow Function' syntax from the ECMA6 specification. */
 exports.add = item => {
+	/* check if item add is an empty string*/
+	if(typeof item !== "string"){
+		throw new Error('item must be a valid string')
+	}
+	if(item.trim() === ""){
+		throw new Error('item cannot be an empty string')
+	}
+
 	/* check if the item is already in the list */
 	if (data.get(item) === undefined) {
 		/* if the item is not found it is added to the list with its quantity set to 1 */

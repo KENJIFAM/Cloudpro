@@ -7,6 +7,17 @@ const should = require('should');
 const request = require('supertest');
 var server = require('../index.js'); //reference to you app.js file
 
+describe('DELETE /lists', function () {
+  it('delete empty lists', function (done) {
+      request('http://localhost:8080')
+          .delete('/lists')
+          .set('Authorization', 'Basic dGVzdHVzZXI6cDQ1NXcwcmQ=')
+          .expect('Content-Type', /json/)
+          .expect(410,'error')
+          done();
+      });
+});
+
 describe('GET /lists', function () {
     it('get empty list', function (done) {
         request('http://localhost:8080')
@@ -35,6 +46,17 @@ describe('POST /lists', function () {
 			done();
 		});
 	});
+});
+
+describe('DELETE /lists', function () {
+  it('delete all list', function (done) {
+      request('http://localhost:8080')
+          .delete('/lists')
+          .set('Authorization', 'Basic dGVzdHVzZXI6cDQ1NXcwcmQ=')
+          .expect('Content-Type', /json/)
+          .expect(200,'success')
+          done();
+      });
 });
 
 /*

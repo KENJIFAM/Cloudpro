@@ -8,6 +8,14 @@ frisby.globalSetup({
   }
 })
 
+// delete empty lists
+frisby.create('delete empty lists')
+  .delete('http://localhost:8080/lists')
+  .expectStatus(410)
+  .expectHeaderContains('Content-Type', 'application/json')
+  .expectJSON({ status: 'error', message: 'all lists have already been deleted!' })
+  .toss();
+
 /* here is a simple automated API call making a GET request. We check the response code, one of the response headers and the content of the response body. After completing the test we call 'toss()' which moves the script to the next test. */
 frisby.create('get empty list')
   .get('http://localhost:8080/lists')
@@ -45,5 +53,12 @@ frisby.create('check number of lists')
       .get(json.data[0].link)
       .expectStatus(200)
       .toss()
+    // delete all lists
+    frisby.create('delete all lists')
+      .delete('http://localhost:8080/lists')
+      .expectStatus(200)
+      .expectHeaderContains('Content-Type', 'application/json')
+      .expectJSON({ status: 'success', message: 'all lists deleted' })
+      .toss();
   })
   .toss()

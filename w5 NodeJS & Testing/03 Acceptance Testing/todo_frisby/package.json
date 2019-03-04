@@ -5,13 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "jasmine-node test/ --verbose"
+    "test": "jasmine-node test/ --verbose --autotest --watch"
   },
   "keywords": [
     "api",
     "restify",
     "tutorial"
-    
   ],
   "author": "Mark J Tyers",
   "license": "ISC",

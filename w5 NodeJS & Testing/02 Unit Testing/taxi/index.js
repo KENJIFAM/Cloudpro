@@ -35,3 +35,9 @@ taxi.getFare('Broadgate, Coventry', function(data) {
 	console.log(data)
 	console.timeEnd('short fare')
 })
+
+console.time('long fare');
+taxi.getFare('Rd No 3, Port Talbot SA12 7BP, UK', function(data) {
+  console.log(data);
+  console.timeEnd('long fare');
+})

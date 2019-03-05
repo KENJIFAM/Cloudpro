@@ -1,0 +1,756 @@
+{
+  "geocoded_waypoints" : [
+     {
+        "geocoder_status" : "OK",
+        "place_id" : "ChIJmWZ-McZLd0gRGnnDmYZEGRw",
+        "types" : [ "route" ]
+     },
+     {
+        "geocoder_status" : "OK",
+        "place_id" : "ChIJ25su7KRgbkgRyPtwXrPCVGg",
+        "types" : [ "route" ]
+     }
+  ],
+  "routes" : [
+     {
+        "bounds" : {
+           "northeast" : {
+              "lat" : 52.4058508,
+              "lng" : -1.4909213
+           },
+           "southwest" : {
+              "lat" : 51.5059187,
+              "lng" : -3.8310564
+           }
+        },
+        "copyrights" : "Karttatiedot ©2018 Google",
+        "legs" : [
+           {
+              "distance" : {
+                 "text" : "241 km",
+                 "value" : 240989
+              },
+              "duration" : {
+                 "text" : "2 h 40 min",
+                 "value" : 9616
+              },
+              "end_address" : "Rd No 3, Port Talbot SA12 7BP, Yhdistynyt kuningaskunta",
+              "end_location" : {
+                 "lat" : 51.6129363,
+                 "lng" : -3.8310564
+              },
+              "start_address" : "Gulson Rd, Coventry, Yhdistynyt kuningaskunta",
+              "start_location" : {
+                 "lat" : 52.4058508,
+                 "lng" : -1.4961849
+              },
+              "steps" : [
+                 {
+                    "distance" : {
+                       "text" : "0,4 km",
+                       "value" : 404
+                    },
+                    "duration" : {
+                       "text" : "1 min",
+                       "value" : 61
+                    },
+                    "end_location" : {
+                       "lat" : 52.4041836,
+                       "lng" : -1.5013684
+                    },
+                    "html_instructions" : "Jatka \u003cb\u003elänteen\u003c/b\u003e: \u003cb\u003eGulson Rd\u003c/b\u003e kohti: \u003cb\u003eVecqueray St\u003c/b\u003e",
+                    "polyline" : {
+                       "points" : "qoz~HbfcHHv@Dp@Hl@Lz@x@dEPh@f@dCFRTnA^jB^rAVx@?@@FBPLf@?@@BDB^V"
+                    },
+                    "start_location" : {
+                       "lat" : 52.4058508,
+                       "lng" : -1.4961849
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "1,3 km",
+                       "value" : 1335
+                    },
+                    "duration" : {
+                       "text" : "2 min",
+                       "value" : 93
+                    },
+                    "end_location" : {
+                       "lat" : 52.3930981,
+                       "lng" : -1.4941189
+                    },
+                    "html_instructions" : "Käänny \u003cb\u003evasemmalle\u003c/b\u003e: \u003cb\u003eLondon Rd\u003c/b\u003e/\u003cb\u003eA4114\u003c/b\u003e",
+                    "maneuver" : "turn-left",
+                    "polyline" : {
+                       "points" : "cez~HpfdHDEDCPMVSXUNOZ_@FIZ]LKHGHGVM\\Q\\QJGlAk@JEBA@?TCf@_@~AkA\\YdAy@^[RSn@g@pAiA`A{@v@o@n@i@fA_Ab@_@XSNKRMRKVKTIZKl@ULKBCDC|@WrA]B?|Bq@^KbA_@h@Q^Ob@QhAa@x@[\\Op@[rAi@z@g@j@_@"
+                    },
+                    "start_location" : {
+                       "lat" : 52.4041836,
+                       "lng" : -1.5013684
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "0,7 km",
+                       "value" : 655
+                    },
+                    "duration" : {
+                       "text" : "1 min",
+                       "value" : 36
+                    },
+                    "end_location" : {
+                       "lat" : 52.3880615,
+                       "lng" : -1.4920826
+                    },
+                    "html_instructions" : "Loiva \u003cb\u003evasen\u003c/b\u003e: \u003cb\u003eA444\u003c/b\u003e",
+                    "maneuver" : "turn-slight-left",
+                    "polyline" : {
+                       "points" : "{_x~HfybHv@_A?APSNSNSHMNWP]Rc@Pa@HSFMJWBGHURe@Na@BIFMLYHONUX_@Z]POVQTKTIFCNCHAT?P?R@TD^LRH^N|@\\JF`Af@ZL\\F`@Rf@VjAf@"
+                    },
+                    "start_location" : {
+                       "lat" : 52.3930981,
+                       "lng" : -1.4941189
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "1,7 km",
+                       "value" : 1690
+                    },
+                    "duration" : {
+                       "text" : "1 min",
+                       "value" : 68
+                    },
+                    "end_location" : {
+                       "lat" : 52.3752651,
+                       "lng" : -1.5048248
+                    },
+                    "html_instructions" : "Loiva \u003cb\u003eoikea\u003c/b\u003e pysyäksesi tiellä \u003cb\u003eA444\u003c/b\u003e",
+                    "maneuver" : "turn-slight-right",
+                    "polyline" : {
+                       "points" : "k`w~HnlbHf@d@n@b@bAl@`Al@HFrChBfAf@XRfAv@`CtAjBjAt@d@bFfDdCfBbGvE|CfCvDdDFFXXZZ`AfAv@~@^f@^f@d@p@JPh@x@r@lA`@v@t@xA\\t@Zn@Xr@^x@f@pAv@tBl@dBFHDH"
+                    },
+                    "start_location" : {
+                       "lat" : 52.3880615,
+                       "lng" : -1.4920826
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "14,4 km",
+                       "value" : 14418
+                    },
+                    "duration" : {
+                       "text" : "8 min",
+                       "value" : 507
+                    },
+                    "end_location" : {
+                       "lat" : 52.2712671,
+                       "lng" : -1.6137252
+                    },
+                    "html_instructions" : "Jatka: \u003cb\u003eA46\u003c/b\u003e",
+                    "polyline" : {
+                       "points" : "mpt~Hb|dHRp@Pp@JV^~@\\~@\\t@v@hBl@lAd@v@Zf@V`@fA~AzBpCdEhFhChDzAtBn@z@~@tAxAxB`AzAv@rAv@rAv@pAdB~CjBnDdAtBdAxBtAxC`BnDpBpENZvCxGVl@`GrMzH~NXf@vBlDrAxBrFxHtAfBp@v@|BlC|BdClBlB~BvBtAjA~ArA|AjAbCdB`Ar@VPdCbBhBlAtA|@~@p@jBrAbAx@tBnBrAvA|@fAz@fAl@v@|@vAp@dAt@hAfBvCtCvElBxCnB|CbBhCxAxB|BhDzA|B|AxBfB`CvBpCvChDnAtA`BfB~A`BrAxA`B`B`BfB`BhB~AlBjAxAzAtBdBhC|CvEhBhCxBdDn@z@rC|DhBdCtAjBhB`CxBpCbAnAfApAhDvDnBpBzAxAfC|B|BlB|BfBj@`@j@d@dBjAfBjAzA|@tAx@zAt@dBt@`Bh@|Ad@jAXlATdBTxALxAHpAB~AAR?pBArCId@Av@?B?p@?^Bn@Dr@B~AN`BRbARnAV~@TnA^|Ah@v@VdC|@~D|AfBt@~Ap@lBz@zAr@nB~@vCzAbCnAz@f@lAr@b@Xf@^z@p@PLh@b@h@h@`@^`@`@PRd@h@r@x@h@r@vApBl@`AdAhBb@v@z@bBZp@~@rBJV`@~@n@|Az@xB\\~@\\`A~@rCr@bCZfAv@tC|@tDl@jCn@dDTfAf@lC`@xB`@tB`@tBh@lCf@lCb@vBp@~CDXTdAb@tBTdAb@rBb@tB^~ATbATdAVhAn@tCj@~B^~A^`Bn@hCRz@|@rD~@tDzAdG|@hD`@vAp@fCj@pBRj@Tj@FRDJPd@`@`A\\p@Xf@Xh@\\l@p@bA^d@b@h@f@j@\\\\d@d@j@d@j@`@^T^T^Rh@T\\Pd@PTHb@Jp@N`@HZD~@J\\B^@n@@`@A`A?rAIfAE`ACtAARApABlBDrAHjBPp@JlAP^FlAVlA\\jAZ`Bj@h@Rl@VxBbAJDp@ZxAn@^Nh@T|Aj@ZJNDl@R^Lt@RXHl@Pp@Nj@NhB^nATr@Jh@Jv@HxANnAJpAHvBJtABbBDbH?"
+                    },
+                    "start_location" : {
+                       "lat" : 52.3752651,
+                       "lng" : -1.5048248
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "1,4 km",
+                       "value" : 1433
+                    },
+                    "duration" : {
+                       "text" : "1 min",
+                       "value" : 63
+                    },
+                    "end_location" : {
+                       "lat" : 52.25916669999999,
+                       "lng" : -1.6194296
+                    },
+                    "html_instructions" : "Loiva \u003cb\u003eoikea\u003c/b\u003e: \u003cb\u003eWarwick Bypass\u003c/b\u003e/\u003cb\u003eA46\u003c/b\u003e",
+                    "maneuver" : "turn-slight-right",
+                    "polyline" : {
+                       "points" : "mf`~HxdzH^Jb@CzCUrAOpCM~@Av@?t@Bt@DhBPrAVh@NlA^x@X~@`@b@TpAp@jAz@fKvH~C`CJFPNRNRNTNDDtDtCz@n@t@l@n@h@n@b@dAr@"
+                    },
+                    "start_location" : {
+                       "lat" : 52.2712671,
+                       "lng" : -1.6137252
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "2,9 km",
+                       "value" : 2920
+                    },
+                    "duration" : {
+                       "text" : "2 min",
+                       "value" : 133
+                    },
+                    "end_location" : {
+                       "lat" : 52.2425512,
+                       "lng" : -1.6512977
+                    },
+                    "html_instructions" : "Poistu \u003cb\u003e2.\u003c/b\u003e liikenneympyrästä liittymään: \u003cb\u003eStratford Rd\u003c/b\u003e/\u003cb\u003eA46\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eJatka: A46\u003c/div\u003e",
+                    "maneuver" : "roundabout-left",
+                    "polyline" : {
+                       "points" : "yz}}Hlh{HBC@AB?@ABAB?@?BAB@B?B@B@B@B@@BB@DFBDBH@@@D@H@J@H?JARnAxAvBxC\\h@rArBb@t@jAfC\\t@vBzGPr@rAxD`@xBPfAHj@Jv@ZxBTbBZzBVbB`@tBd@vBh@nBd@tAf@rAVn@Zr@`ArB`ApBv@~Aj@lA`ApBlAhC|DjIv@|ANXhDjGHNdAfBv@lA\\l@fC`EzCdFb@r@b@r@`CfEVb@b@z@h@jA^z@d@rAZ~@ZbAV`APp@P|@Nr@P`ATnAb@jC\\fBJ`@Rv@Rj@N\\NXP\\PTV\\LJHHNLRLJFNDL?VE"
+                    },
+                    "start_location" : {
+                       "lat" : 52.25916669999999,
+                       "lng" : -1.6194296
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "6,4 km",
+                       "value" : 6440
+                    },
+                    "duration" : {
+                       "text" : "5 min",
+                       "value" : 300
+                    },
+                    "end_location" : {
+                       "lat" : 52.2104094,
+                       "lng" : -1.7252965
+                    },
+                    "html_instructions" : "Poistu \u003cb\u003e2.\u003c/b\u003e liikenneympyrästä liittymään: \u003cb\u003eWarwick Rd\u003c/b\u003e/\u003cb\u003eA46\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eJatka: A46\u003c/div\u003e",
+                    "maneuver" : "roundabout-left",
+                    "polyline" : {
+                       "points" : "}rz}HroaI@C@CBC@ABABA@AB?B?@?B?B@B@BBBDBB@DBD@D@J@D?D?B?D?B?D?BADF^RhAD^x@|C@FpAjEj@bB`@jARh@tArDtAdETr@`AtDh@hBRl@b@nAdAjC~@rCNj@V`ANx@P|@RzAHr@LrAN`BDv@FjAF`A@RX`EHhAH~@BVFj@J`ALbAFb@?DHb@Lx@Lv@ZfBT`AR`Ap@tCx@fDfAfEv@|C^tAbAvD`@zA`@tAV|@jA`E^jA`@rAL^Tx@Xx@b@zAVbAXfAV`AJ`@VbANp@RbA\\dBPfAPpAF`@D^DXFr@JdA@N?DB\\Df@@N@XBj@Bf@Bn@@d@@`@?^@x@?n@?j@?n@?^Az@Av@Af@Aj@?hAAv@?t@?n@@j@?h@@^@h@@f@Bd@@R@TBl@B^D`@D^Dh@F`@Dd@F\\@LBLHd@Lp@DTLd@FXH\\Nj@Pj@Rt@Vx@X~@^hAb@tAd@rAf@xA`@fAZz@Xr@^|@Td@n@pAt@tA~@fB~AxC`AfBj@dA|@|AfAlBl@bAfAlBp@hApArB`@n@PXf@x@`@n@v@nA`AxAjBrCd@r@hEnG^b@RXVZVZRV\\`@LLRPp@n@ZX~@|@XXDDp@j@z@p@hBxAtB~AnBvAbAx@h@b@d@^j@d@f@d@d@`@n@l@xAxAfAhAXXbCpCj@v@p@bAV^\\l@`ArBh@lAd@jARl@Vn@`@pAhA|Dp@dCp@fCb@hB`@dBb@jBh@bCd@vB\\~A`CzLN^Lb@J^FNFPHPPT"
+                    },
+                    "start_location" : {
+                       "lat" : 52.2425512,
+                       "lng" : -1.6512977
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "2,2 km",
+                       "value" : 2152
+                    },
+                    "duration" : {
+                       "text" : "2 min",
+                       "value" : 119
+                    },
+                    "end_location" : {
+                       "lat" : 52.1980033,
+                       "lng" : -1.7482024
+                    },
+                    "html_instructions" : "Poistu liikenneympyrästä \u003cb\u003e3.\u003c/b\u003e liittymään ja jatka: \u003cb\u003eA46\u003c/b\u003e",
+                    "maneuver" : "roundabout-left",
+                    "polyline" : {
+                       "points" : "ajt}Hb~oID?B?B@D?BBD@B@BBFFDFDHDHDHBJ@LBJ?B?B?B?B?B?B?B?BAFCHAFCFAFCFEDCFA??@A@A@GTEVAJCLGh@FXRr@j@hBTh@r@fBXp@`@|@Td@P\\PXhApBZf@n@~@~A~B^l@b@n@b@r@PTbBpC~AtCZj@BBDHP\\bC|EjFvKn@vArDlIlDjIdAdCbD|HbE`KvAjDzAlDTf@z@tBf@fAPDHBFBPF@?TJ"
+                    },
+                    "start_location" : {
+                       "lat" : 52.2104094,
+                       "lng" : -1.7252965
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "8,8 km",
+                       "value" : 8841
+                    },
+                    "duration" : {
+                       "text" : "7 min",
+                       "value" : 433
+                    },
+                    "end_location" : {
+                       "lat" : 52.2055533,
+                       "lng" : -1.8749744
+                    },
+                    "html_instructions" : "Poistu \u003cb\u003e2.\u003c/b\u003e liikenneympyrästä liittymään: \u003cb\u003eAlcester Rd\u003c/b\u003e/\u003cb\u003eA46\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eJatka: A46\u003c/div\u003e",
+                    "maneuver" : "roundabout-left",
+                    "polyline" : {
+                       "points" : "o|q}HfmtI@A@?@A@A@?@?@?@?@?@?@??@@?@@@?@@?@@@@@?@@@?@@@?@@@?@?B@B?@?@?B?@?B?@?@?B?@BP@D?N?LARATALAPGZYnEMhBWlE]lFg@~HUbDItAS~CUxDWhDEn@gA`Oe@vGMfBGfAErAEpAGlCCzEA`ACdBKrFCxAAx@Cr@C^AZAPCVG^CTIl@O|@]zBQjAMx@Kp@K~@Gh@Eh@C\\AZANAf@Ab@Ah@?nC?jAAn@KdDMhCQ`EM`DS`FUjFMlDGbAO~DOnDEfAGdAGjBItBA^Ch@Av@At@A|@?lA?f@?j@Aj@AbAAl@Af@Cn@Ed@]jE[|DKhAMpA[~Cm@dF[fCKv@Mv@u@nEk@dDMbAE^E^UfCSdCARMnAQhBSxAOpAKx@Mz@In@EZC\\EZAJEj@Ed@Gn@Gt@En@G~@AZCv@AZCl@C|@CbBC`BAf@AZ?TC\\GpAItASzCGjAKzAEx@Et@Gx@MrBGz@M`COtBK|AOxBMvAKpAQvBYhDMtAMrAMtAc@`FOrBMzA{@hM]zEKjBO|BIxAStCY|DIbAy@tL[nEi@jH{@rMG`AEj@G`AMnCCf@IzAG`CElBKjFItHCtCC|CCnH?rD@hG@lE@`DBbDFdEFzELbGHjEJvDT`HTbGZpHh@dKv@`MN|Bb@fHTdCLvB`@|F`@dGV~D^rF`@dG^dGT~CLlB`@xFBR?N?FN`@DV@JBHBHDLTl@"
+                    },
+                    "start_location" : {
+                       "lat" : 52.1980033,
+                       "lng" : -1.7482024
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "5,1 km",
+                       "value" : 5097
+                    },
+                    "duration" : {
+                       "text" : "3 min",
+                       "value" : 207
+                    },
+                    "end_location" : {
+                       "lat" : 52.1608558,
+                       "lng" : -1.8814857
+                    },
+                    "html_instructions" : "Poistu liikenneympyrästä \u003cb\u003e1.\u003c/b\u003e liittymään ja jatka: \u003cb\u003eA46\u003c/b\u003e",
+                    "maneuver" : "roundabout-left",
+                    "polyline" : {
+                       "points" : "uks}HpemJD@D?DBDB@@@BDDBDBDd@LLBXHTBZDR?pBH~@DnAFrAF|AJ|@HpBTnAN~@NnAT~@Ll@J~@J`BPnAJpAF~AH~AFfBBnB?bAAfA?zAI~@EbBKtAKzAGfAE|@AnBApA@hA@dBDpADnAF~@FbBPbBR~@LfC`@~AV|Ch@hDh@bAP~AVnDn@nAR`ARjDr@`ARlAXnAX|A`@\\JpDbAvAb@zBr@xDrAvBx@lAd@zAj@~@^tB`AdCjA~CxAnCvAbDbBnBdAbB|@pAl@jAd@~@ZnA\\dATjAR|BT`CHz@?p@Ap@C|@G~AQ\\Ep@Mv@O`Cs@lBu@bEsBbDgBl@]vDsB`@[@ALIHKLUJ["
+                    },
+                    "start_location" : {
+                       "lat" : 52.2055533,
+                       "lng" : -1.8749744
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "7,0 km",
+                       "value" : 6970
+                    },
+                    "duration" : {
+                       "text" : "5 min",
+                       "value" : 277
+                    },
+                    "end_location" : {
+                       "lat" : 52.1138071,
+                       "lng" : -1.9409329
+                    },
+                    "html_instructions" : "Poistu liikenneympyrästä \u003cb\u003e2.\u003c/b\u003e liittymään ja jatka: \u003cb\u003eA46\u003c/b\u003e",
+                    "maneuver" : "roundabout-left",
+                    "polyline" : {
+                       "points" : "ktj}HhnnJ?K?I?I?I@I@I@GBGDIBIDEFEDEFAFAL@D@BBB@DBBDBDBD@@TDXTRN\\VdAn@XNd@Zv@h@h@b@v@t@p@r@t@~@t@bAXb@hAnBn@pA^|@z@zB~@vCr@fCT`Al@hCr@bCl@jBz@~B|@xB~@rBdAhBjAlBpAnBrA`Br@v@^`@hAdAjAbAZT`BfAbEbC`Ah@fAt@`@VvA`AzBdBv@l@pAjAzBvBrAvA\\^jAtA^d@dAvAb@j@lBrC`BjCXf@jBjDfD~FnElIjDhGbFdJlDnGvClFpBlDj@dA~@hBz@hB~@|B|@hCx@pCh@vBVhAJj@n@fDt@vEz@vEt@|Dn@~Ch@dCp@tCh@|Bd@dBx@~CbApDr@`C~@vC~@tC`AnCnAlDn@bBt@jBTh@|@rBpAnC~@pBxAjCpAvBtArBx@jA`AlApAvAzA|AnAjApAdAzAdA~AbArBhA`Bt@~Al@bCr@zDbA|EdA`FbAbCh@bB^fB^tGrAbFfAzAXRBF?NAh@U"
+                    },
+                    "start_location" : {
+                       "lat" : 52.1608558,
+                       "lng" : -1.8814857
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "2,8 km",
+                       "value" : 2817
+                    },
+                    "duration" : {
+                       "text" : "3 min",
+                       "value" : 160
+                    },
+                    "end_location" : {
+                       "lat" : 52.09261799999999,
+                       "lng" : -1.921498
+                    },
+                    "html_instructions" : "Poistu liikenneympyrästä \u003cb\u003e2.\u003c/b\u003e liittymään ja jatka: \u003cb\u003eA46\u003c/b\u003e",
+                    "maneuver" : "roundabout-left",
+                    "polyline" : {
+                       "points" : "ina}HxazJ@E?G@E@E?G@EBE@E@EBEBEBCDCBCBCDA@AB?@A@?BA@?@?B?xAoAZm@P[Zm@fAsBt@yArBaEbB_DxCsF`CgEdEgHfCeEpDyFnDqFpDiFjAgBvAmB|B_DlE}FfAsAfAqAdAgAbByArA_AdAk@XOXMn@W`A]n@OlAYn@KVE|AOd@GPAfL{@dAEfBIvBGb@?p@ApAElACXILCHERQ"
+                    },
+                    "start_location" : {
+                       "lat" : 52.1138071,
+                       "lng" : -1.9409329
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "0,9 km",
+                       "value" : 930
+                    },
+                    "duration" : {
+                       "text" : "1 min",
+                       "value" : 67
+                    },
+                    "end_location" : {
+                       "lat" : 52.08476839999999,
+                       "lng" : -1.9254692
+                    },
+                    "html_instructions" : "Poistu liikenneympyrästä \u003cb\u003e2.\u003c/b\u003e liittymään ja jatka: \u003cb\u003eA46\u003c/b\u003e",
+                    "maneuver" : "roundabout-left",
+                    "polyline" : {
+                       "points" : "{i}|HjhvJ@C?C@A@C@C?A@A@CDEBCBCBAB?DAB?B@D?B@BBBBBBBB@DBDF@JBPJVRXVrA^fCx@~Ah@hC|@hC`AN@^Jz@^p@V\\LdAf@f@^vAn@fAh@fAl@`@Tb@Xn@d@rAdANNXJF@LBL@"
+                    },
+                    "start_location" : {
+                       "lat" : 52.09261799999999,
+                       "lng" : -1.921498
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "1,2 km",
+                       "value" : 1222
+                    },
+                    "duration" : {
+                       "text" : "1 min",
+                       "value" : 74
+                    },
+                    "end_location" : {
+                       "lat" : 52.07653010000001,
+                       "lng" : -1.9366335
+                    },
+                    "html_instructions" : "Poistu liikenneympyrästä \u003cb\u003e2.\u003c/b\u003e liittymään ja jatka: \u003cb\u003eA46\u003c/b\u003e",
+                    "maneuver" : "roundabout-left",
+                    "polyline" : {
+                       "points" : "yx{|HdawJ@CBABCBABABA@?@?B?B?B@B@B@@BB@BDBD@B@D@D@D?D@D?FHVJNTXHN|BhB`A`Av@t@nBtB`ChCdAhA\\^rA|Ah@l@z@dAx@`A~BzCn@v@rAjBt@lAd@|@p@rAjAnCp@rBZ~@V|@Tv@^tAJ\\Lt@DNH\\L`@"
+                    },
+                    "start_location" : {
+                       "lat" : 52.08476839999999,
+                       "lng" : -1.9254692
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "1,2 km",
+                       "value" : 1186
+                    },
+                    "duration" : {
+                       "text" : "1 min",
+                       "value" : 70
+                    },
+                    "end_location" : {
+                       "lat" : 52.0737039,
+                       "lng" : -1.9532076
+                    },
+                    "html_instructions" : "Poistu liikenneympyrästä \u003cb\u003e2.\u003c/b\u003e liittymään ja jatka: \u003cb\u003eA46\u003c/b\u003e",
+                    "maneuver" : "roundabout-left",
+                    "polyline" : {
+                       "points" : "iez|H|fyJB@BBD@BB@BBDBD@D@B@B?B@B?B?B@B?H?D?D?BAD?BAD?BTrDf@xDj@tElAbKhCnVVhCb@zEf@|Ft@`JLdCBt@BzA@ZB`@?Z@b@@h@DVDRJ\\"
+                    },
+                    "start_location" : {
+                       "lat" : 52.07653010000001,
+                       "lng" : -1.9366335
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "10,9 km",
+                       "value" : 10910
+                    },
+                    "duration" : {
+                       "text" : "9 min",
+                       "value" : 527
+                    },
+                    "end_location" : {
+                       "lat" : 52.0041581,
+                       "lng" : -2.0533375
+                    },
+                    "html_instructions" : "Poistu \u003cb\u003e1.\u003c/b\u003e liikenneympyrästä liittymään: \u003cb\u003eCheltenham Rd\u003c/b\u003e/\u003cb\u003eA46\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eJatka: A46\u003c/div\u003e",
+                    "maneuver" : "roundabout-left",
+                    "polyline" : {
+                       "points" : "ssy|Hpn|J@@BBBB@BBD@D@D@BHFFHdAfBJFFBJDd@L\\Dh@@|CHhAB`KPtDH^Dv@Hz@Lz@RjA^ZLjBr@~CpA|Al@`Bn@jGvBxBp@r@Rl@JH@xANb@?d@?fAI^C~A[TClAW|@O~@Qp@KdAGh@AX?^Dp@Jx@RNFvAp@b@Z\\ZFFhAjA|ApBnA|AjB~B^j@`@f@PZV`@PX|@`B`@|@x@fB|BnFfQfb@jGbOnCxGf@hApAzC~KbXtAdDDJd@dAN\\p@zARf@x@pBlAxCbBxDpA|Cv@hBz@nB^~@v@bBbA|Bf@fAhAzBfArBn@nAhArBtAdCj@bAp@jAp@fAp@fA`AvALNVX~@~@r@n@j@d@h@\\t@b@xAv@hAl@`Af@~@f@bAn@~@p@t@j@dAbAv@z@j@r@z@lAj@z@p@lAt@tA`@z@^z@\\t@^z@d@dAZt@DJ\\r@\\x@`@|@Xl@JVd@fAVl@FJd@bA`@t@NXT\\@@^l@X`@BDvAlBDH|@xA`A`BZl@\\n@x@|A`@z@JPb@z@j@dAZl@b@x@r@pAn@nAv@zAjAxB~AtCJPdAvBfAhCLVBJBDJXZz@L`@lAtDhAtD^lA^bAx@vB`@bAXx@Rh@Lb@Pp@T`AVnANx@l@lD`@vBXrALb@Jb@Rn@^dAd@jA^z@`AhBt@pA\\n@Zl@`@|@N`@b@hAf@xAz@dCPd@HVt@|B`@tAr@bC`@tA^vAV`A^|AJf@Jh@NbAb@`DL~@H~@Jz@d@rDD\\Lt@XzAXnA?Bd@rBZrAxBhKTjAx@rE^|B^jBR~@Nt@nAxFLd@n@xCp@zCl@fCdChKdAjE`@zA\\bA`@`ADHZl@`@p@f@n@h@j@zAnAPN`CjBfDpCh@b@v@t@\\\\rAxAfAtATZTZb@l@h@|@t@lAdAlBl@lAdAbCl@xAb@pAb@jAZbAX~@b@\\TJ"
+                    },
+                    "start_location" : {
+                       "lat" : 52.0737039,
+                       "lng" : -1.9532076
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "5,0 km",
+                       "value" : 5029
+                    },
+                    "duration" : {
+                       "text" : "6 min",
+                       "value" : 374
+                    },
+                    "end_location" : {
+                       "lat" : 51.99620710000001,
+                       "lng" : -2.1223388
+                    },
+                    "html_instructions" : "Poistu liikenneympyrästä \u003cb\u003e3.\u003c/b\u003e liittymään ja jatka: \u003cb\u003eA46\u003c/b\u003e",
+                    "maneuver" : "roundabout-left",
+                    "polyline" : {
+                       "points" : "_al|Hj`pKDCBCDABAD?DAB@D?B@B@B@BBB@BBBBBBBFBDBF@F@F@H@F@H?F?H?FAHAFAFAFAHCDADCFCDCBEDCBC@Gl@ENAFGHKhD@vDN~Dn@bKf@lIf@hJDf@Dp@Db@F^Hh@H`@Jb@XbATn@vBhGHRHXFNLf@Pr@\\jBBRR`BR|APtAJr@VnBJt@Dd@HhADbAD~@Bn@DfA@h@?n@Ah@Ab@IfBEz@Ex@CZKbBG~@C^KbBKbAG`@Gd@Kp@Mj@GVSv@Uv@Oh@Kb@Qj@On@Mj@EVGd@Gh@E^IjAEh@Er@GdAEx@GfAEt@EbAA\\Aj@A|@?n@?p@?z@?X?JBn@Bt@B^B^Fh@Hv@PjAHl@Fb@RlADPJr@DTh@|BLd@nA|FJd@`@dBn@vCR~@z@rDTz@^|AFRR|@FTFV@FDNBLBLBHBRFVDTBTDRHn@Jt@J`ABTFh@LrADVLlAXxCDh@LhAD`@@LLfA@NBNF`@BPDPJb@Jb@DLPd@L\\Rh@NXJZRd@L`@Nf@RbA@?F^H`@BZHx@?DBv@B~@@tCAD@dA@bE@`A@|A?^?rA?dAA`B?H?tB?Z?v@@jABn@@l@@VHjANhBH~@H~@HhAZfE@JDdADr@H~A@ZNzDDxA@LLhEBz@@f@HzE@vABfB?`A?H@v@BjB@l@Dx@@\\PxC@LJtAZhFN|ADl@DPBPd@hA"
+                    },
+                    "start_location" : {
+                       "lat" : 52.0041581,
+                       "lng" : -2.0533375
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "0,5 km",
+                       "value" : 477
+                    },
+                    "duration" : {
+                       "text" : "1 min",
+                       "value" : 29
+                    },
+                    "end_location" : {
+                       "lat" : 51.9921514,
+                       "lng" : -2.1242107
+                    },
+                    "html_instructions" : "Poistu liikenneympyrän \u003cb\u003e1.\u003c/b\u003e liittymästä rampille \u003cb\u003eM5\u003c/b\u003e: \u003cb\u003eCheltenham\u003c/b\u003e/\u003cb\u003eGloucester\u003c/b\u003e",
+                    "maneuver" : "roundabout-left",
+                    "polyline" : {
+                       "points" : "ioj|Hro}KVb@P\\^d@PNHDXLb@Ln@Pp@P|@ThBf@nAXl@LTFLBzDf@DBXX"
+                    },
+                    "start_location" : {
+                       "lat" : 51.99620710000001,
+                       "lng" : -2.1223388
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "59,7 km",
+                       "value" : 59661
+                    },
+                    "duration" : {
+                       "text" : "33 min",
+                       "value" : 1978
+                    },
+                    "end_location" : {
+                       "lat" : 51.5538014,
+                       "lng" : -2.5431589
+                    },
+                    "html_instructions" : "Liity tielle: \u003cb\u003eM5\u003c/b\u003e",
+                    "maneuver" : "merge",
+                    "polyline" : {
+                       "points" : "}ui|Hh{}KlBPdCV\\D`Fd@rALjEb@xIv@jGn@dDXzBTx@FbKbApTpBdLfApD^bOvAh@DdHp@nCVhBNbAF`AFn@D~BL~BJt@BdCH`A@~CDhFBbC?`GGfBE|AGxAEfAGjAGdCMnBO\\CpBQjCUbBQv@KdAMb@ElAQ`BUbJsAbAOfAQjAQhAQnASj@IfAOt@Mz@MbAQ~@Mx@K|@M|@I|@Iv@Gh@C`AE`AAnAAz@?b@?~@@n@BdAFx@Df@Fr@FPBvARvAT|AZ~@Tb@LpA^`AZt@V`A`@jAf@nAj@bAh@^R~@h@hAr@tA`A`@Xr@h@`@\\~@t@\\Zv@r@pApAt@v@p@r@r@x@b@h@l@r@d@j@b@j@hFrGzCvDlEtFtCnDfC`DdApAlErF\\b@~@hA|@hA~AjBtA~AlBpBj@l@^^^^tAtAz@x@~@z@`A|@l@f@`Az@bA|@fA|@fAx@rAdAdBnAtA|@lBpAjAt@~CjBXPb@T^RvAt@rBfArB`A~CxArCjAtBv@`EvApEnAnD~@tE~@lEx@dEl@`Eb@pE^~DT|DJbDBlD?bDEpCExFGnGId@Ab@A|@AnHI`GCbGI~BCnBCbDE`BGbB@tPM~HIfPSl@CdB?pBEnACtDApEE`EGzFBrDRrBVfBX|EfAdG|BpD`BHDZPhAr@nA|@bAt@`Av@z@v@bA~@|@|@~@bAjAlAfAlAbAdAdAhAtAvAjApApApApAtAv@v@hAnAlAnAhAjAnArAdAfAbAfA`AdA`AdA~@dAhArA|@fAdArA~@nAhA~A|@tA|@rARZf@x@~@zAn@fApOzXf@|@@Bj@`AbFbJZj@NV@@JRNTZd@jEbIxAlCr@pAZh@DFFNV`@LXtCbFfBxCl@`Al@|@v@fAr@z@^`@@?\\b@^^|AzAlAfArA`AvBbBrBzArBzA|BbB~AjAtKbI`DbC~@v@j@j@dA~@nAnAfAlAvAbBh@p@|AtBpArB\\h@|AjCjBrDjB`ElC~Fv@fBdA~B`AtBh@lArAzCt@bBfA`CdA|B~@lB`AhB@?~@bBh@z@|@tA~AzB^f@v@dA`AlAt@v@z@`AnCzCbCfCbChCjDnDl@n@HHb@d@NRxEvFhAvAz@hAb@n@|AzBfBrCjBbD|@bBhAfCjA`C|@nBbAxB~@tBxAlDtA|CrBxE`@|@nAxCr@~Ah@jAnAvC|BjFLZzC`HpElK^x@z@pBx@nBhAfCd@hAdI~QvBbFlArCnHzPlAnChBhEdFnLfCfGt@lBn@|A@@dB~EnBvFrBrGhCdJl@xBb@`B\\vA\\vAx@fDv@hD|@`EZ|Az@jEv@hEt@fEPbA~@hGZrBt@pFPtAf@~Dh@zE^tDVdCb@pEj@tFxA~N@P|AxOtAdNhBfRl@bGRfBl@tFb@hDt@~Eh@rCh@nC`@fBRv@^xAj@vBJ`@`AbD\\fAl@dBb@pAb@fA^|@j@pATh@j@nAXj@n@lAj@bAj@bAh@z@`A`Bt@dAbAtARVtAdBjBtBxBvB^^lDjDjIbInR`RzKnKZXzCvClBjBbF|En@n@x@x@n@l@j@h@|@z@fAdAdAbAfAbA~AvAt@p@h@b@x@p@~@r@b@Z`Ar@bAr@lAv@xA|@z@f@ZP~@h@l@XnB~@jBx@TH`A^xAj@hBl@xAd@pC|@`Cv@`DbAZLhBj@`FbBd@P`A^zAp@x@^|Av@~A|@`Aj@~@l@bAp@^Vp@f@nA~@z@t@dA|@lAhAfBdBfAhApB`Cz@dAnBdCnAfB~@pA`NbRX`@v@fApAdBfA|A~B`DlD|EjA`BvDdFp@~@~AzBfBbCrBpCjCjDzAhBxAdBv@|@z@~@rBtBvCrCtAlA|AtAbCnBnDhCnCjBvChB|G~DzKvGzChBxRhLjEfCxBrA|DzB~EtCxEpCzA|@jF`DdDnBdCvAzEpCxBnAvBjAvBpAnBrAxAfAhC|B|@|@d@d@jApAdBrBDBlAxAr@bAl@|@z@tAz@vAZh@r@tAv@zAt@~Ah@lAdAfCz@|Bl@fBx@bCv@nCjAxEnBjIjAjFhAdF~@vDh@tBp@`Ct@`CrAxDlA`DfAfCbBlD`@v@b@t@t@pA|@vAhAdBn@|@vAjBpA|AlCbDrDlExAfB~BlCrA~AnCbDlA|AhAxAl@z@|BnD`BtCpAdChB~DjBbEhB`E~AjDx@|AdAjB`A`BbAzAv@jA`@h@hAvA`AlAbAdAnArA`CvBVTnBzArCjBdCtAfCpA~GjDzAr@hAl@rCxAn]bQ~DpBtE~Bv@^vEvBxB~@xCnA|Al@fFlBfGxBdBn@~ChAlAb@lBp@`ExAzJnDjC`AfE|AjA`@vAh@p@VlAd@z@\\hBv@hAj@zAt@\\PrC~A~BtA|@j@rBrAdBjAtAdArAfArAhAv@r@dA~@jBfB~A`Br@v@hBpBzAdBd@j@vAfBlA`B~@nAhA~AtAtBdAbBZb@fAfBlBbDVd@Xh@fApB`AlBfAtB|@lBTd@h@hA`@|@b@~@lAtCdCpGdDbJtB~FL^r@tB`@nADLZz@`@hAd@tA\\~@Vv@d@lAj@bBb@jAfA|C\\bAb@lAl@dBXt@h@xAd@vAf@tA`@fAL\\n@`Bt@pBd@fAn@zAb@|@l@hAZj@NVZd@V`@^l@V`@Z`@h@r@LPXZ`@d@p@x@b@`@d@d@l@h@p@j@~AhAv@h@`An@zBtAfAr@dAr@vA`AhBjAjAt@d@TrAz@zBvA|AfAlAx@`At@bBrAbAz@vAlAtAnAr@p@z@x@nApAdAhAdAjAf@j@lAvAn@v@rBjCfAzAjBbCHLNRzDjFZb@x@dAv@dAVZh@r@\\d@h@r@n@z@f@n@bApAxAlBfAnAr@t@vAxA^\\f@d@p@l@t@l@\\ZVPZV`Ar@n@b@|@l@r@b@|@f@b@VdAh@dAh@~@f@`Af@\\PbBz@jAl@nAn@bAh@`Af@z@b@pAp@rBdAnAj@hAj@pAh@dAb@bBp@~@\\bBj@bAZzAd@t@Rl@NdB`@z@R`ARnAVdBVl@JhANlAPv@FhBR|BRrBRdBPzANxANbC\\v@LvAZ|@RzBp@zBx@nAh@p@Z|@d@v@`@lAt@x@h@hBpAnAdA`Ax@TR\\\\\\\\j@j@h@j@f@j@TVp@x@jAzA\\b@LPd@r@d@p@Xb@f@v@Xf@~AtCl@hAd@~@^z@`@z@Zr@t@dBN^Vj@Vl@hBfE|@nB~@pBt@~Al@lAl@hAx@~AbAhB\\l@rA~Bx@rA`@p@f@v@n@`AX`@h@x@p@~@r@~@j@v@hAxA~@nAh@r@FH`@h@pBlCzApBbArA~ArBj@r@NRt@`Ax@hAlA~An@|@`GxHnDxEz@hA~@lArBnChF~GbBvBrBnCl@x@z@jA~@lAj@t@fAtAdAtAxApBbApAX`@jAzA`AlAn@|@Xb@\\h@LRPT|AdCnAtB`A~Al@dAr@pAr@pAx@zAl@nAn@pATd@^x@r@zA`@|@v@lBv@jBd@hAd@lA^bADHZz@h@zAv@vBn@jBz@~BtElMxBdGf@pAvCfIf@tAbApCjA~CpBtFZ|@x@xBj@|AbBnElArClAnCn@rA`AlBr@tAvAbCx@tAdA~Av@hA~AzBhCdDX\\~@fAvB|BTT`A|@n@j@j@f@l@h@jA~@lBxAfAr@bAn@v@d@RJxAz@bCrAdB~@tC|AjB`AjCvAxAv@\\RxEfClC|AnBrAb@Zr@j@f@^bA|@z@x@VTn@n@x@|@VZh@l@d@h@`@h@\\d@`@f@NT`@j@Zd@d@r@RZf@z@T\\P\\Xf@`@r@NZf@~@Td@\\t@HPt@bBPb@`@`A^~@h@xAFNXz@L\\Tt@"
+                    },
+                    "start_location" : {
+                       "lat" : 51.9921514,
+                       "lng" : -2.1242107
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "3,4 km",
+                       "value" : 3405
+                    },
+                    "duration" : {
+                       "text" : "2 min",
+                       "value" : 129
+                    },
+                    "end_location" : {
+                       "lat" : 51.5692441,
+                       "lng" : -2.5767299
+                    },
+                    "html_instructions" : "Risteyksessä \u003cb\u003e15\u003c/b\u003e käänny: \u003cb\u003eM4\u003c/b\u003e kohti: \u003cb\u003eM48\u003c/b\u003e/\u003cb\u003eS. Wales\u003c/b\u003e",
+                    "maneuver" : "ramp-left",
+                    "polyline" : {
+                       "points" : "gbtyHvuoNT\\JZNb@ZbAX`AZfAT~@FVJ\\HZLb@Pn@Nd@FTPh@HPFNL^?@JTJVP^P`@t@fBTh@HTLXL^JXFZJd@FZFXBXBPD`@DZ@Z@\\?Z@LAfBCv@CZG~@K|@G\\aA`FMh@Od@Sl@KVa@|@OVQTMPUVQPo@f@]P[PIDUL_@N}@Zk@RSJiA\\{@Tm@R_AVa@Nk@RUJcAd@o@^g@Xc@BcAr@]Xy@l@y@r@YVi@f@UVe@b@o@p@{@~@c@f@e@h@g@n@KNi@l@W`@W\\ILa@j@]f@c@p@KNKPa@r@i@~@aAfBcBjDm@pAg@fAeAfCiAfC}@vBk@rAi@nAgAjCc@~@aBxDmAnCgDxHy@lBQd@Sd@cAbCeBhEmDfIgAfCIRKRcB`E"
+                    },
+                    "start_location" : {
+                       "lat" : 51.5538014,
+                       "lng" : -2.5431589
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "39,1 km",
+                       "value" : 39101
+                    },
+                    "duration" : {
+                       "text" : "24 min",
+                       "value" : 1465
+                    },
+                    "end_location" : {
+                       "lat" : 51.5520506,
+                       "lng" : -3.0637365
+                    },
+                    "html_instructions" : "Pysy risteyksessä \u003cb\u003eoikealla\u003c/b\u003e ja tiellä \u003cb\u003eM4\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eTiemaksu osassa tietä\u003c/div\u003e",
+                    "maneuver" : "fork-right",
+                    "polyline" : {
+                       "points" : "wbwyHpgvNuB|EWl@O`@Wh@Uj@]x@a@bAo@|Ae@hAq@~A}CxHqAnD}@jC{@lCo@vBm@vBa@`B[nAk@hCMn@YvAc@zBe@hCg@`De@dDe@zDSjBYpCQxBMrASrCSfDSrEIvCGrBEhCExBAfBApC?jC@zBBnCBpBBzAB`CF~BLlEFxBFxAHbCNdCv@dOf@bHb@lFn@rHp@fGt@nGl@pEp@fFz@rFfApGlArGz@fEz@`EhAnExAnGlAvFx@tEdA~GbAvHh@fFNtAPrBZ|EJ~AJhBH`BDdADbADlADtAB`ADbB@rABfA@rA@pA?fA?bA?rA?fAAjAA|@?rAArAAhAAnAA|A?xAAzACtAAnBAfBAlCCnCAvCCnB?LApCAbBK|QGpJCjDEjDOlYA`B?f@?z@AnA?|@G~LIvLSfPEvCQfKa@lKsAdYa@jGu@`Ie@lFiA|KcAtIo@pESvAwBvNm@hDqAxHW`CcD~RoBtLgB|KyKtp@YfBAX?XATm@hDwEfYaA`GeCdOsB`Mu@~Em@lEg@dEk@nFe@zEYpD]zEWbEWdFMdDKvDCbAEjBCzAAlACzBElCCjB?hC?nC?vCDtDDnDF`DHjDHjCFbBL|CJdCPvCZ~ETrDVfEDz@JjBVjEPpDLdCPvDPvDLjCL|DPnFL`DDrAR~GR~HJvDDzCBfD@vA@bD?|CAxAAtDEfDElBGlCGnCIhCQhEMjDM|DA^QtFM`FGvBEzBAdA?pA?Z@bB@hABbE?zB@tFEdECrAM~DIlBI|AMxA[dDw@fHMdAS~ASrAUxAUnAWxAWdAWjAYhAYdA[jAa@jAUn@k@zAYt@Wf@s@~AeBfDeChFg@jASf@]z@[x@kAlDa@rA]tA[pA_@lBWvA[nBQhASbB_@dEM~AI~AOdECbBChBAbCBnCBpB@pABhBDnB@rA@f@@f@BzAL|FPtHFzBNlDPbERvDT`E\\`FBZ`@tFf@fHPpCN|CH~BFjBB`BBvABvB@dC?v@?lA?nA?pAC`BCvBEnBGpBCt@Et@KhCMxBS~CQ|BSrBUrBWpBYxBWbBYbBW~AUhA_@jBSbAc@hB]xAuAtFu@zCU`AOp@c@nB}@pDmAzEYpA{D|OcC|Jy@nDy@pDcArEq@`D{@nEq@dDk@vCs@xDu@fEo@xDw@vEe@vCWbBW`BgAvHm@nEi@|Dk@pE}@hHo@dFy@dGaA~Gi@tDy@jFYjBm@pDs@lEy@tEq@xDk@|Cg@pCUtAU|AUvAUdBQzASdBOtAQpBOfBK`BO`CKdCS~DMdBKvAIfAQhBMlAQzAUrBUhBSrAQhAYbB[hB[xA[~Ag@`Cu@|DSrAQhAOvAOpAM|AInAKpBEhACfACbBAlB@vB@nADxAFzAHrAHrAPrBPnBRlBb@vEBXDXDh@Fj@X|CTpDLrCLzCTjIHjIBzGElFEfFGnACx@KlDA\\MzECrAElAEjACjAElACr@Ap@ElAAr@ClAAn@?r@?r@@t@@r@Bl@Bp@Bt@Dp@Fp@Fr@Fl@RjBd@bDd@jC^rBR`ANv@Hf@Hb@@DNz@Lx@Lt@Px@N|@Nv@Lt@Jl@Jl@Nt@Lt@H`@F^FZNv@Jl@Lr@Nz@Nx@P~@Lr@Jn@Lr@Nt@Lx@Nv@Lt@TdAPv@Lp@Nj@Lj@Nj@Lf@Rp@JZRt@L^Vz@Ph@Vx@Z~@Pl@Vz@Pl@Pl@Vz@Rr@Rj@Vr@Ph@Ph@Pd@Rl@Rl@Vx@Tp@Pj@Nj@Nl@Lj@Lj@LbB^dFThFPtFVdEl@nE`AdFLx@Nz@Hn@Hj@Hp@Fr@Fp@Dl@Br@Bt@Bp@?l@?v@?x@An@Cv@Cx@Gp@Ep@Gn@Ip@AJGd@QdAEVMn@ENGXQn@Of@Qj@Sh@Qf@Ub@Uh@c@p@Wb@c@n@{AfBeA~@u@t@i@f@u@r@u@x@YZY\\]^c@l@c@l@SZu@hA]j@_AfBYj@Q`@Q`@Yp@Qf@Wp@Yx@W~@Wz@Qr@Ol@Mv@[hBShA]rBQhAIn@OhAQ`B]rC_@rCAN_@zCGd@Kx@SbBGd@G^SfAShAMn@U`AWdAk@lB]~@_@dAu@dBo@tA_@x@]t@Uh@[x@Sl@Wr@Kb@IZOj@Mf@Kj@Mp@Il@Il@Ir@K~@En@Cf@Cj@Ct@?p@Ab@@dA@t@@n@D|@FhAFhAVxCXhDTvCR`CN|ALzADb@P~Bb@|ENnBBRd@vGH~@h@vGDf@ZrDLvAJdABXFj@Fn@Hv@Hf@Hn@F\\Jh@FXJf@Nl@Pj@Pj@b@jA\\|@l@|AlAvC~@~B`A`CXt@p@dBp@bB\\|@p@xAJXRh@FRPf@b@vALd@^rAlA~EVdAr@zC|@vD@BrArFfCrKvA~Fb@lB|BvJLd@HZ?BH^vB|IrAxFvBbJtAxF`AfERr@J^Nf@Vz@Pd@f@jAZr@Zp@R^`@p@TZV^V\\TXn@r@VXt@n@d@^z@l@xI`GFBhCdBfAt@lD~BzAdAt@f@nAz@|B|A|@f@ZR`@RZNXJXJVHLDj@JPBVBTBL@d@@n@A`@CTCNAVE\\I^Il@UdAi@RM\\UXUNMXWf@i@v@}@nB_CnAuAdAcAZW\\U`@UVO^OLE^M\\K\\IPCn@ITCTAl@?\\@N@z@F\\Dl@JfDh@pKfBzB`@vAVp@Lt@PLDfAVzA`@l@PzAf@n@T~@\\jAd@tAl@~Av@B@^PlBdAf@ZvAz@nDbC~@p@hCvBfA`AhAdAz@z@h@f@XXn@r@z@`AhApAVZrCrDt@`Ax@jA~@zAx@nAj@~@j@`Ax@zAx@zAj@hAdBlD`AtBx@jB`A`Cf@hAn@~A~@dCj@zA~AxE|@pCPh@@DNf@~C`L`@bBl@dCt@`Dd@vBZzAv@fEr@zDZjB\\vBx@lF`@vC\\pC^dDDX\\zC"
+                    },
+                    "start_location" : {
+                       "lat" : 51.5692441,
+                       "lng" : -2.5767299
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "59,8 km",
+                       "value" : 59833
+                    },
+                    "duration" : {
+                       "text" : "35 min",
+                       "value" : 2078
+                    },
+                    "end_location" : {
+                       "lat" : 51.6028624,
+                       "lng" : -3.7981617
+                    },
+                    "html_instructions" : "Pysy risteyksessä \u003cb\u003eoikealla\u003c/b\u003e ja tiellä \u003cb\u003eM4\u003c/b\u003e",
+                    "maneuver" : "fork-right",
+                    "polyline" : {
+                       "points" : "iwsyHjkuQl@nGDh@XtCN|AL`BH`APpBRrCd@xG`@dHX~EV`FJfCHnBFbBLbDLxCLfFL`ELzFFhDH|EBdDFrEFrDHnDFnBJlCPxDNhCPbCP~BNnBHz@XxCXnCV|BXvBh@rDVbBTtAd@hCZbBb@nBXtAb@fBh@tBh@rBd@~Al@lBn@rBf@tAdC|GZ|@Zz@Xv@`@nAn@nB`AxCt@bCNj@d@dBTx@t@zCd@lB^hBXvA^jB\\lB^xBXpBV`BNdANnA\\vCP|AN|AJlAN~AZjELxBJ`CJtBDnAHfBD`BDzB?FDjBBzB@nA?pC?fDEzCCtCGtCKxCKrCO|COlCStCS~BWvCUvBc@|Do@vFUfBe@lE[jCo@~FQ|Aa@jDSjBe@hESlBSpBc@rEWdC_@lEi@bGc@vFSbC]tE]vEm@nJAPMzB_@fGgAdUs@~RGvBOnESlHM`GGbD?X?@ARAp@M~GOhQG`IChEGbP?bB@lCFpINbOLpJNzJ@v@Bv@@Z?Z@RTpIVjJNdEZ`JVdGNbDFxAJbCTnDTnDTbCRzBNrAJ`AL`A`@`DRpAdAhGRfAVhAJd@p@xC`@bBbAvDv@fCj@`BN^Nb@t@tBZx@jAtC|@rBp@tAjA|B`@v@p@jAzA~BpAhBlBdCdBpBn@r@zBvBlAjAzAzAv@v@p@~@hAbBd@r@v@pAtAjCz@lBf@rAf@rA\\fABJX~@Nd@DNDTRv@BHd@vBj@vCZnBNhAVjB^xDd@zETfCPvB`@rCLr@Jl@X~AZzALj@HZTbA^vA`@pAd@xAZ|@\\~@\\v@Vl@Zp@^v@h@jAb@x@t@|At@~A\\x@f@lAt@lBb@lAVv@`@lAf@dB\\jA\\rAV`AZpAr@hDXtAVvARlAJr@TxANfAPtAVrBXpCVnCHlAJ~AHfABp@Dp@LxCJjDFjBHtCHvCFxBFfCF`BRjHBrADtAFlBXtJ@f@@f@DxAFjBFtADz@Bz@LnBFfAL`BP|BN|APhBHl@XbC\\`CXlBt@bEn@`Db@nBPt@XbAj@tBh@hBX`AXz@\\bARh@`@bAXv@d@fAbA|Bv@~Al@jAz@|AzAlC~B~DjAvB@Bb@x@r@rAd@bAl@vAb@bAPd@Rh@Zx@^dAPh@Rl@Tr@Vz@L^J^Pr@`@|ALf@Lh@Pv@Nt@^nB`@vBXfBJr@@DJr@ZbCd@bEZtCRxBXdCP~ATjBVnBZtB`@`C`@vBPbANr@VpA`@dBb@`Bf@jBd@~A^hAVx@z@dCf@tAf@nA|@tBr@|An@tAr@vAZn@~B~E^z@v@fBh@pAx@zBj@fBTn@ZhAZfABHd@dBh@|Bp@pCvAbHTlATjATjA\\lBt@dEj@fDdA~GF`@Hh@@DJv@TzBP|APhBP~BN`CNzCJxCDdBD`CBtC?hBA`DC~BGjCANI`CIbBIdBMfBSvC_@nDQ`BKr@S~Aq@|EM`Aw@nFUbBQ`BShBMpAUjCOtBYlGI|BG|BAdACbJAhH?vK?JA|@?|ACzFGdGIpEInEKtDKzCSlFKnBMpCSjDUnDStCADOvBMvAMvAa@tEg@`Fi@`FaAtHg@pD{@vFy@pFc@fCu@`EsAvHeAtFmA|GMr@o@pDs@lEi@hDi@dDm@~De@dDg@bEc@lDc@|D_@pDU~B[jD]jEWlDQbCKdBKbBOnCQvDMvCKzCIzBGhBIzCIjDEzBEvCCtCCzBCzB?hAAdB?tC?tC@zBB|B@vBB|BDrCDzBJ~EJlDBpARlFNbDLlCP|CVvE\\fFRfCj@`HZ`Dj@zFTtB`AnIf@fEVrB\\rC\\pCZbCZhC\\lCv@rGn@~E~@hHhAxIr@|FTfBp@zFV`C`@hEXrDPbCPjCP~DLjCRzGJ`FJfHD~E@nDBlFEpJIvIOnHWvJKzBExAYzFUnEYjEUvCO|Ac@rEIp@Gp@OdA}@|Go@bEg@vC[~AgAjFc@pBwB`Kg@bCe@|B}@bFY|AKn@U~AYpB]jCWxBSlBSxBYpDQrCK|AO~CIhCKrDElBGdFAhD@lB@xCDfDHbDHvBHbCZhGT~CNhBFn@LxAJdAJdA`@lDj@dEdAxHv@xFz@|Gp@`GZjDPjCNjCL|BBz@F~B@dA@zD?pAA|@ChBEhBGpAIjBSfDKpAKbAAJMpAUhBUdBQdAYbBMp@e@lBe@pBm@zB]jAi@`Bi@|AUl@Yl@O`@[r@g@dAQ\\GLYh@c@v@QZeA~AkAdB{@jAk@p@c@j@s@z@yBfCw@~@sA`B}@jAiA~AkAlBYf@Wf@gAzBs@`Bm@`BMZ[|@c@tAg@jBe@rB_@hBMl@UnAMx@e@vCYjBu@dF_@nCc@hCWtAk@xCe@rBOp@_@tA_@pAs@xBu@tBq@~AYn@Q^g@dAs@tAi@|@eAdBq@fAu@lAeA~AwAzBsBhDcBzC}@hBm@tASb@i@rAm@`Bq@pBg@`Bs@jC_@vAOp@YlAWlAc@bC[jBYjBKv@QrAMrAWhCMzAMhBEp@InAGvAAXKpCCnAAXE`B?BEdBAl@KzDQ|DW~DYdDg@vEg@~D[jCUrBIx@ObBS~BMvBKxBI|BE|@CnACzBApC@lA?xABxBDjBDxAD~AL`CJlBPhCPdCNvBHpAHxAFvABp@Bv@D|ADfBBrB?J@lAAlB?n@?vAA^Ad@CtAIlDQdGKpDK~DObII~EGpEEhCCzCExGApE?jA?~E?zC?j@?|A@fDBlEBhD@vB@lA@rE@v@BtC@tB?lB@r@DdGBlE@hA@nCHpL@pC@D@lC?hABhCDvCBjBFnCNpGFlCDhAJhCLdDPbEDbAT|DNfCTtDT`DZdE\\dE\\vD`@`EPhBNrA@BLlABZd@|DNfAZ`CTdBZzBZrB\\~Bv@|Ed@pCd@lCVvAVrAZ|AZ~Ab@xBh@bC`AhEhBvH|@pD`ApDz@zC|@fDXdAx@vCxApF`BbGzAtFdAvDf@jBf@hBbAnD|AbGhAbE|AvFd@`Bx@zCf@jBVbAHVn@`CZbAZdATr@x@zCv@pCdAzD`ApDn@dC|@jDdA`EJ`@j@fCd@vBt@nDRbANz@BLTfAZhBj@lDVtA\\vBPrANjA^lCNtAHr@TjBP|AV`CT`CTdC^pEV`ERfCBp@NfC^|HFrBDjAJfDDnBJfGDtDBxF?pC?hACpEC~CCnBIbFOdHKbFMpFCpAEhBEfCCb@ClAKrEMpGKbFKtDIvDOnHGjDI|CCrAATC~@MjFC~ACtA?BCpA_@pPOdHIxDG~BOpHItDGhCCz@Ev@K~AGdAEf@QdBQfBUdBMz@g@hD]hBa@nBU~@o@hCc@xAYz@o@jBi@zAu@fBc@|@k@jAk@dAgCrEiCbEw@hAwApBiAvAkAtAoB`CcAfAa@^c@^w@v@u@p@u@p@gA~@s@l@{@n@uBbBaChBYTaD`CoDfCiAv@y@h@{@j@qGvDC@SJyAx@o@\\w@`@cEtB}@d@m@ZkAj@iClAgDxAsAh@CBwAl@iCdAkBt@m@TuAf@wBt@w@Xw@VcGrB_DbAaD~@qCx@aBd@yDbAE@_B`@gEdA}EhAsFhAoBb@cAPqB^iARcCb@yGdAoB^iBd@gA\\oBp@oBz@wE`C}GxDkAp@oCbBuBtA_BdAiEvCyDrCsAbAs@h@}CbCgDrCgA|@u@r@cBxAmBdByBxBe@b@]`@aAdAaAfAoAzAw@|@KNw@z@g@j@[Xk@j@i@f@{@n@y@j@m@`@m@^yAz@cAl@]RgAt@u@h@y@p@sApAe@f@OPY\\s@z@]`@SX}@jA_ApAaAtAEDy@hAc@p@KN{@pAo@bAKNWd@mCpE[h@_@n@e@t@W^iA~AUZYb@gA~AqAnBkAfB_AvAcBfCs@dAe@p@kAhBe@r@s@dAMRa@p@c@v@Yh@GNMVUf@k@lAu@dBw@dBIPa@z@KPYf@U^Yb@Y^KN[^[^[\\[X]Z]X[T_@Xm@\\_@R_@PoAj@{DhBWJWLm@XOFk@\\_@TMJMJa@Za@b@m@t@UVOTmBbCg@l@[\\i@j@_@Z?@OJYTk@^CB_@VQJy@j@{@j@}AdA[Ri@`@_@\\]Zi@n@[`@UZS\\SXYb@c@r@Yd@QXU\\Y^MNg@j@YZe@^WP]T}@h@}@f@oAr@mBdA_Ah@m@b@[T[X[\\KJMPKLYb@Ud@MVKTIRQf@Qj@Ql@Ov@Mj@Mr@QdAMx@QhAY`BQnAOjAIv@K|@I~@I`AIzAEz@ExAElAAxAArAAjBCpB?l@An@A~AA`@Cr@GlAE`@C\\Ir@In@Mt@S`AOn@YdAa@zAK\\a@pAk@pB_@rAGRmAdEk@pBa@tA}@zCm@pBy@tCs@`Ce@~AaAhDWv@W~@KXGRUp@"
+                    },
+                    "start_location" : {
+                       "lat" : 51.5520506,
+                       "lng" : -3.0637365
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "1,7 km",
+                       "value" : 1667
+                    },
+                    "duration" : {
+                       "text" : "1 min",
+                       "value" : 87
+                    },
+                    "end_location" : {
+                       "lat" : 51.6155491,
+                       "lng" : -3.8085327
+                    },
+                    "html_instructions" : "Risteyksessä \u003cb\u003e41\u003c/b\u003e käänny liittymästä \u003cb\u003eA48\u003c/b\u003e: \u003cb\u003eBriton Ferry\u003c/b\u003e/\u003cb\u003eLlansawel\u003c/b\u003e",
+                    "maneuver" : "ramp-left",
+                    "polyline" : {
+                       "points" : "{t}yHnydVK|@i@|AWt@KV}@nCKZWr@GROZO\\OVORILMLMLOJMFQHYHOBQ@S?SAIASCYGQG_@KYMo@S]IMCYEI?KAW@M@M@SDMBWJULMJ_@XOLg@h@_AbAeBhBWZMLoBrBw@x@sAvAaBfBuAvAaAdAsAxAsAtAeAhAi@l@i@h@[Zk@j@[XMJMJ_@TMJ_@Ra@N]L[JUFa@HaAJwAJMBKDWL"
+                    },
+                    "start_location" : {
+                       "lat" : 51.6028624,
+                       "lng" : -3.7981617
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "0,5 km",
+                       "value" : 454
+                    },
+                    "duration" : {
+                       "text" : "1 min",
+                       "value" : 46
+                    },
+                    "end_location" : {
+                       "lat" : 51.6131904,
+                       "lng" : -3.813599
+                    },
+                    "html_instructions" : "Poistu \u003cb\u003e1.\u003c/b\u003e liikenneympyrästä liittymään: \u003cb\u003eSeaway Parade\u003c/b\u003e/\u003cb\u003eA4241\u003c/b\u003e",
+                    "maneuver" : "roundabout-left",
+                    "polyline" : {
+                       "points" : "ed`zHhzfVKb@?`@?XFd@Tl@b@lAJ`@N\\L^DJFTFPL^BBBHDL?@LZDJ`@lA^`ARj@z@jBFJ\\n@f@x@\\f@ZXVX"
+                    },
+                    "start_location" : {
+                       "lat" : 51.6155491,
+                       "lng" : -3.8085327
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "0,4 km",
+                       "value" : 404
+                    },
+                    "duration" : {
+                       "text" : "1 min",
+                       "value" : 33
+                    },
+                    "end_location" : {
+                       "lat" : 51.6101968,
+                       "lng" : -3.8166537
+                    },
+                    "html_instructions" : "Poistu liikenneympyrästä \u003cb\u003e2.\u003c/b\u003e liittymään ja jatka: \u003cb\u003eSeaway Parade\u003c/b\u003e/\u003cb\u003eA4241\u003c/b\u003e",
+                    "maneuver" : "roundabout-left",
+                    "polyline" : {
+                       "points" : "mu_zH~ygV@AB?@?@?@?B?@@@?@@@?BB@@@@@@?B@@@B@B?@@B?B?B@B?B?B?@?@?BA@?@?@?@?@p@d@nA~@zCbCxBzBrCtD"
+                    },
+                    "start_location" : {
+                       "lat" : 51.6131904,
+                       "lng" : -3.813599
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "0,5 km",
+                       "value" : 490
+                    },
+                    "duration" : {
+                       "text" : "1 min",
+                       "value" : 47
+                    },
+                    "end_location" : {
+                       "lat" : 51.6072564,
+                       "lng" : -3.8212483
+                    },
+                    "html_instructions" : "Poistu \u003cb\u003e2.\u003c/b\u003e liikenneympyrästä liittymään: \u003cb\u003eSeaway Parade\u003c/b\u003e",
+                    "maneuver" : "roundabout-left",
+                    "polyline" : {
+                       "points" : "wb_zH`mhVLMRGR?PJPRDTD^?XEXCNThADH~BnETd@nBvDt@rA|@vAxAdB"
+                    },
+                    "start_location" : {
+                       "lat" : 51.6101968,
+                       "lng" : -3.8166537
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "1,0 km",
+                       "value" : 997
+                    },
+                    "duration" : {
+                       "text" : "2 min",
+                       "value" : 140
+                    },
+                    "end_location" : {
+                       "lat" : 51.6132309,
+                       "lng" : -3.8304946
+                    },
+                    "html_instructions" : "Poistu liikenneympyrästä \u003cb\u003e2.\u003c/b\u003e liittymään.\u003cdiv style=\"font-size:0.9em\"\u003eTien käyttöä osittain rajoitettu\u003c/div\u003e",
+                    "maneuver" : "roundabout-left",
+                    "polyline" : {
+                       "points" : "kp~yHxiiVDIDGDEHAF?FBFDDHBHBJ?L?DAFAJKRKFI@E?sEfIMT_CrEIPsCnFiHvKuKtO"
+                    },
+                    "start_location" : {
+                       "lat" : 51.6072564,
+                       "lng" : -3.8212483
+                    },
+                    "travel_mode" : "DRIVING"
+                 },
+                 {
+                    "distance" : {
+                       "text" : "51 m",
+                       "value" : 51
+                    },
+                    "duration" : {
+                       "text" : "1 min",
+                       "value" : 15
+                    },
+                    "end_location" : {
+                       "lat" : 51.6129363,
+                       "lng" : -3.8310564
+                    },
+                    "html_instructions" : "Käänny \u003cb\u003evasemmalle\u003c/b\u003e: \u003cb\u003eRd No 3\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eTien käyttöä rajoitettu\u003c/div\u003e",
+                    "maneuver" : "turn-left",
+                    "polyline" : {
+                       "points" : "uu_zHpckVx@pB"
+                    },
+                    "start_location" : {
+                       "lat" : 51.6132309,
+                       "lng" : -3.8304946
+                    },
+                    "travel_mode" : "DRIVING"
+                 }
+              ],
+              "traffic_speed_entry" : [],
+              "via_waypoint" : []
+           }
+        ],
+        "overview_polyline" : {
+           "points" : "qoz~HbfcHdHj^hFsChb@kYbb@gWdG_HhPlGdv@bi@rPlWdy@jwAly@d{Aho@bh@l~AjvBrs@`y@rk@pQv_@dCjo@hZfUh\\xS~u@vc@nmBbOfShRjDpd@pDhWvJbi@zDve@lFxc@n[jQr^lNho@xw@faBnK|RrUbw@ji@zpCl@bi@zY`y@fs@`_A`[j[fV|}@bDvHpH`ZzaAzoBuQhfD}VpsD{I|vAqMtxDpRthDro@~Glj@e@jt@lKxs@xVdl@hO`e@iV`IhFhWlk@`iAzqAlr@jwAvZtnAtb@no@vaAvW`LkOz_AcyAlf@qLdR{Az|@lg@hd@|v@|N|aBrCxGdi@|E`h@dIjKe@rKjInt@l~Ade@|gArYxd@x\\fZ~\\lp@jd@zkA`]piAhNdu@lWjx@te@bo@?tFnDl{@nJfc@sEts@\\vn@vO~w@zHdi@`DxkA`B|i@rNtNdfDf\\fy@eA`m@eIx\\kBf_@tI`pAbuA`a@v\\z_A|]bxAdBzcBgBjh@vJxNfLvc@he@pcAvaB`tArvAta@x{@rh@pm@`uArwC~o@xfBtTptA|Wp~B|Qjf@~mBrmBdqAhl@pgBhyBvmBjkAjn@zf@r]pdA|^hy@vs@|gAjh@zh@fdDhwAvi@ze@f]~k@dn@`cBhv@vp@p_AxfAh~@~h@fqAxY|k@`{@haCrkDt|@~|Bl`@pf@fr@|`@~`@nj@bQlg@bB`O}GnWki@n[mq@hwAa\\|v@mSr~@mCbcAbMfhBrZxkB`Ahg@}B`tDuIl}A{P|iAik@zqDeEziAnEfmA~@zdDeCdbAoK`d@wThr@s@ju@rE~jCmn@p{Coe@peDyOxdB`Fps@m@vjAbIl}@zMfp@hInWvJdz@wChl@}`@hs@cVtgAdBhiA|XrpAjm@dbCvw@hk@vb@qUbe@~F`d@zSr_@nc@dZ|r@|ThjApIpmA|DnwAvLjy@db@pgB~A~z@cKjnA{LtwAkG`aCrCzvBbJnaAtUzo@bd@dn@zVxpAf\\|sAnJfqBfh@xsAjUftApi@heBxGjy@aFxx@aL~`Dof@hxDtA|rCnSzfBjI`bB}HpbBcStiAyAhiAfNttA{@xn@uMjg@iYj`@{Pfi@}Pns@s\\~o@eQjhBb@~aByA|rCtJhtCpl@npCnj@r{BfI~_AIlxA{GfxCmNhn@ub@xj@_yAbx@gfAfXqg@rQ}\\jUke@hd@aYfTwo@v`AoM~VaTjOma@|\\i`@p_@gIp`A_\\vlAiHnLaJwAck@vi@mJrHtEvMzGxKtb@hm@ob@h|@"
+        },
+        "summary" : "A46 ja M4",
+        "warnings" : [],
+        "waypoint_order" : []
+     }
+  ],
+  "status" : "OK"
+}

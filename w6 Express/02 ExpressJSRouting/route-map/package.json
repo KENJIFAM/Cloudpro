@@ -1,0 +1,17 @@
+{
+  "name": "route-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha './testing/route-map.js'",
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "supertest": "^4.0.0"
+  }
+}

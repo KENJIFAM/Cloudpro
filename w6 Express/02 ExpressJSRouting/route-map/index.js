@@ -2,7 +2,7 @@
  * Module dependencies.
  */
 
-var express = require('../../lib/express');
+var express = require('express');
 
 var verbose = process.env.NODE_ENV != 'test';
 
